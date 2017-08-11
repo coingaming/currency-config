@@ -1,0 +1,109 @@
+[
+  {
+    "code": "BTC",
+    "precision": 8,
+    "display": {
+      "code": "mBTC",
+      "symbol": "m\u20bf",
+      "name": "Bitcoin (millis)",
+      "precision": 4,
+      "inputPrecision": 5,
+      "shift": 3
+    }
+  },
+  {
+    "code": "EUR",
+    "precision": 5,
+    "display": {
+      "code": "EUR",
+      "symbol": "€",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
+  {
+    "code": "USD",
+    "precision": 5,
+    "display": {
+      "code": "USD",
+      "symbol": "$",
+      "name": "United States dollar",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
+  {
+    "code": "BTC",
+    "precision": 8,
+    "display": {
+      "display": "mBTC",
+      "symbol": "m\u20bf",
+      "name": "Bitcoin (millis)",
+      "precision": 4,
+      "inputPrecision": 5,
+      "shift": 0
+    }
+  },
+  {
+    "code": "GBP",
+    "precision": 5,
+    "display": {
+      "code": "GBP",
+      "symbol": "£",
+      "name": "Pound sterling",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
+  {
+    "code": "AUD",
+    "precision": 5,
+    "display": {
+      "code": "AUD",
+      "symbol": "A$",
+      "name": "Australian dollar",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
+  {
+    "code": "HKD",
+    "precision": 5,
+    "display": {
+      "code": "HKD",
+      "symbol": "HK$",
+      "name": "Hong Kong dollar",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
+  {
+    "code": "JPY",
+    "precision": 5,
+    "display": {
+      "code": "JPY",
+      "symbol": "¥",
+      "name": "Japanese yen",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
+  {
+    "code": "PHP",
+    "precision": 5,
+    "display": {
+      "code": "PHP",
+      "symbol": "₱",
+      "name": "Philippine peso",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  }
+]
