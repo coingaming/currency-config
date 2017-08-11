@@ -17,6 +17,7 @@
     "display": {
       "code": "EUR",
       "symbol": "€",
+      "name": "Euro",
       "precision": 2,
       "inputPrecision": 4,
       "shift": 0
@@ -31,18 +32,6 @@
       "name": "United States dollar",
       "precision": 2,
       "inputPrecision": 4,
-      "shift": 0
-    }
-  },
-  {
-    "code": "BTC",
-    "precision": 8,
-    "display": {
-      "display": "mBTC",
-      "symbol": "m\u20bf",
-      "name": "Bitcoin (millis)",
-      "precision": 4,
-      "inputPrecision": 5,
       "shift": 0
     }
   },
