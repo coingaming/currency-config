@@ -94,5 +94,17 @@
       "inputPrecision": 4,
       "shift": 0
     }
+  },
+  {
+    "code": "XXX",
+    "precision": 5,
+    "display": {
+      "code": "XXX",
+      "symbol": "",
+      "name": "Play",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
   }
 ]
