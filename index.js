@@ -1,1 +1,1 @@
-export const config = require('./config.json');
+module.exports = require('./config.json');
