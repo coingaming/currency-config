@@ -106,5 +106,29 @@
       "inputPrecision": 4,
       "shift": 0
     }
-  }
+  },
+  {
+    "code": "mBTC",
+    "precision": 5,
+    "display": {
+      "code": "mBTC",
+      "symbol": "m\u20bf",
+      "name": "Bitcoin (millis)",
+      "precision": 4,
+      "inputPrecision": 5,
+      "shift": 3
+    }
+  },
+  {
+    "code": "uBTC",
+    "precision": 8,
+    "display": {
+      "code": "uBTC",
+      "symbol": "u\u20bf",
+      "name": "Bitcoin (micros)",
+      "precision": 2,
+      "inputPrecision": 4,
+      "shift": 0
+    }
+  },
 ]
