@@ -121,7 +121,7 @@
   },
   {
     "code": "uBTC",
-    "precision": 8,
+    "precision": 2,
     "display": {
       "code": "uBTC",
       "symbol": "u\u20bf",
