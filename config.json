@@ -12,14 +12,20 @@
       "mBTC": {
         "code": "mBTC",
         "symbol": "m\u20bf",
-        "name": "Bitcoin (millis)",
-        "shift": -3
+        "name": "Milli-bitcoin",
+        "shift": 3
       },
       "uBTC": {
         "code": "uBTC",
         "symbol": "\u03bc\u20bf",
-        "name": "Bitcoin (micros)",
-        "shift": -6
+        "name": "Bits",
+        "shift": 6
+      },
+      "sat": {
+        "code": "sat",
+        "symbol": "\u20bf",
+        "name": "Satoshi",
+        "shift": 8
       }
     }
   },
@@ -37,7 +43,7 @@
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Euro cent",
-        "shift": -2
+        "shift": 2
       }
     }
   },
@@ -55,7 +61,7 @@
         "code": "cent",
         "symbol": "\u00a2",
         "name": "United States cent",
-        "shift": -2
+        "shift": 2
       }
     }
   },
@@ -73,7 +79,7 @@
         "code": "penny",
         "symbol": "p",
         "name": "British penny",
-        "shift": -2
+        "shift": 2
       }
     }
   },
@@ -91,7 +97,7 @@
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Australian cent",
-        "shift": -2
+        "shift": 2
       }
     }
   },
@@ -109,7 +115,7 @@
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Hong Kong cent",
-        "shift": -2
+        "shift": 2
       }
     }
   },
@@ -127,7 +133,7 @@
         "code": "SEN",
         "symbol": "\u9322",
         "name": "Japanese sen",
-        "shift": -2
+        "shift": 2
       }
     }
   },
@@ -145,7 +151,7 @@
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Philippine centavo",
-        "shift": -2
+        "shift": 2
       }
     }
   },
