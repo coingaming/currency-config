@@ -1,21 +1,21 @@
 {
-  {
+  "BTC": {
     "code": "BTC",
     "precision": 8,
     "units": {
-      {
+      "BTC": {
         "code": "BTC",
         "symbol": "\u20bf",
         "name": "Bitcoin",
         "shift": 0
       },
-      {
+      "mBTC": {
         "code": "mBTC",
         "symbol": "m\u20bf",
         "name": "Bitcoin (millis)",
         "shift": -3
       },
-      {
+      "uBTC": {
         "code": "uBTC",
         "symbol": "\u03bc\u20bf",
         "name": "Bitcoin (micros)",
@@ -23,17 +23,17 @@
       }
     }
   },
-  {
+  "EUR": {
     "code": "EUR",
     "precision": 5,
     "units": {
-      {
+      "EUR": {
         "code": "EUR",
         "symbol": "€",
         "name": "Euro",
         "shift": 0
       },
-      {
+      "CENT": {
         "code": "CENT",
         "symbol": "\u00a2",
         "name": "Euro cent",
@@ -41,17 +41,17 @@
       }
     }
   },
-  {
+  "USD": {
     "code": "USD",
     "precision": 5,
     "units": {
-      {
+      "USD": {
         "code": "USD",
         "symbol": "\u0024",
         "name": "United States dollar",
         "shift": 0
       },
-      {
+      "CENT": {
         "code": "CENT",
         "symbol": "\u00a2",
         "name": "United States cent",
@@ -59,17 +59,17 @@
       }
     }
   },
-  {
+  "GBP": {
     "code": "GBP",
     "precision": 5,
     "units": {
-      {
+      "GBP": {
         "code": "GBP",
         "symbol": "\u00a3",
         "name": "Pound sterling",
         "shift": 0
       },
-      {
+      "PENNY": {
         "code": "PENNY",
         "symbol": "p",
         "name": "British penny",
@@ -77,17 +77,17 @@
       }
     }
   },
-  {
+  "AUD": {
     "code": "AUD",
     "precision": 5,
     "units": {
-      {
+      "AUD": {
         "code": "AUD",
         "symbol": "A\u0024",
         "name": "Australian dollar",
         "shift": 0
       },
-      {
+      "CENT": {
         "code": "CENT",
         "symbol": "\u00a2",
         "name": "Australian cent",
@@ -95,17 +95,17 @@
       }
     }
   },
-  {
+  "HKD": {
     "code": "HKD",
     "precision": 5,
     "units": {
-      {
+      "HKD": {
         "code": "HKD",
         "symbol": "HK\u0024",
         "name": "Hong Kong dollar",
         "shift": 0
       },
-      {
+      "CENT": {
         "code": "CENT",
         "symbol": "\u00a2",
         "name": "Hong Kong cent",
@@ -113,17 +113,17 @@
       }
     }
   },
-  {
+  "JPY": {
     "code": "JPY",
     "precision": 5,
     "units": {
-      {
+      "JPY": {
         "code": "JPY",
         "symbol": "\u00a4",
         "name": "Japanese yen",
         "shift": 0
       },
-      {
+      "SEN": {
         "code": "SEN",
         "symbol": "\u9322",
         "name": "Japanese sen",
@@ -131,17 +131,17 @@
       }
     }
   },
-  {
+  "PHP": {
     "code": "PHP",
     "precision": 5,
     "units": {
-      {
+      "PHP": {
         "code": "PHP",
         "symbol": "\u20b1",
         "name": "Philippine peso",
         "shift": 0
       },
-      {
+      "CENT": {
         "code": "CENT",
         "symbol": "\u00a2",
         "name": "Philippine centavo",
@@ -149,17 +149,17 @@
       }
     }
   },
-  {
+  "XXX": {
     "code": "XXX",
     "precision": 5,
     "units": {
-      {
-      "code": "XXX",
-      "symbol": "",
-      "name": "Play",
-      "precision": 2,
-      "inputPrecision": 4,
-      "shift": 0
+      "XXX": {
+        "code": "XXX",
+        "symbol": "",
+        "name": "Play",
+        "precision": 2,
+        "inputPrecision": 4,
+        "shift": 0
       }
     }
   }
