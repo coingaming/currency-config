@@ -33,8 +33,8 @@
         "name": "Euro",
         "shift": 0
       },
-      "CENT": {
-        "code": "CENT",
+      "cent": {
+        "code": "cent",
         "symbol": "\u00a2",
         "name": "Euro cent",
         "shift": -2
@@ -51,8 +51,8 @@
         "name": "United States dollar",
         "shift": 0
       },
-      "CENT": {
-        "code": "CENT",
+      "cent": {
+        "code": "cent",
         "symbol": "\u00a2",
         "name": "United States cent",
         "shift": -2
@@ -69,8 +69,8 @@
         "name": "Pound sterling",
         "shift": 0
       },
-      "PENNY": {
-        "code": "PENNY",
+      "penny": {
+        "code": "penny",
         "symbol": "p",
         "name": "British penny",
         "shift": -2
@@ -87,8 +87,8 @@
         "name": "Australian dollar",
         "shift": 0
       },
-      "CENT": {
-        "code": "CENT",
+      "cent": {
+        "code": "cent",
         "symbol": "\u00a2",
         "name": "Australian cent",
         "shift": -2
@@ -105,8 +105,8 @@
         "name": "Hong Kong dollar",
         "shift": 0
       },
-      "CENT": {
-        "code": "CENT",
+      "cent": {
+        "code": "cent",
         "symbol": "\u00a2",
         "name": "Hong Kong cent",
         "shift": -2
@@ -141,8 +141,8 @@
         "name": "Philippine peso",
         "shift": 0
       },
-      "CENT": {
-        "code": "CENT",
+      "cent": {
+        "code": "cent",
         "symbol": "\u00a2",
         "name": "Philippine centavo",
         "shift": -2
@@ -157,8 +157,6 @@
         "code": "XXX",
         "symbol": "",
         "name": "Play",
-        "precision": 2,
-        "inputPrecision": 4,
         "shift": 0
       }
     }
