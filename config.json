@@ -7,24 +7,32 @@
         "code": "BTC",
         "symbol": "\u20bf",
         "name": "Bitcoin",
+        "displayPrecesion": 8,
+        "inputPrecession": 8,
         "shift": 0
       },
       "mBTC": {
         "code": "mBTC",
         "symbol": "m\u20bf",
         "name": "Milli-bitcoin",
+        "displayPrecesion": 4,
+        "inputPrecession": 5,
         "shift": 3
       },
       "uBTC": {
         "code": "uBTC",
         "symbol": "\u03bc\u20bf",
         "name": "Bits",
+        "displayPrecesion": 2,
+        "inputPrecession": 2,
         "shift": 6
       },
       "sat": {
         "code": "sat",
         "symbol": "\u20bf",
         "name": "Satoshi",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 8
       }
     }
@@ -37,12 +45,16 @@
         "code": "EUR",
         "symbol": "€",
         "name": "Euro",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "cent": {
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Euro cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -55,12 +67,16 @@
         "code": "USD",
         "symbol": "\u0024",
         "name": "United States dollar",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "cent": {
         "code": "cent",
         "symbol": "\u00a2",
         "name": "United States cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -73,12 +89,16 @@
         "code": "GBP",
         "symbol": "\u00a3",
         "name": "Pound sterling",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "penny": {
         "code": "penny",
         "symbol": "p",
         "name": "British penny",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -91,12 +111,16 @@
         "code": "AUD",
         "symbol": "A\u0024",
         "name": "Australian dollar",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "cent": {
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Australian cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -109,12 +133,16 @@
         "code": "HKD",
         "symbol": "HK\u0024",
         "name": "Hong Kong dollar",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "cent": {
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Hong Kong cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -127,12 +155,16 @@
         "code": "JPY",
         "symbol": "\u00a4",
         "name": "Japanese yen",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "SEN": {
         "code": "SEN",
         "symbol": "\u9322",
         "name": "Japanese sen",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -145,12 +177,16 @@
         "code": "PHP",
         "symbol": "\u20b1",
         "name": "Philippine peso",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       },
       "cent": {
         "code": "cent",
         "symbol": "\u00a2",
         "name": "Philippine centavo",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
         "shift": 2
       }
     }
@@ -163,6 +199,8 @@
         "code": "XXX",
         "symbol": "",
         "name": "Play",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
         "shift": 0
       }
     }
