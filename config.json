@@ -93,7 +93,7 @@
         "inputPrecession": 4,
         "shift": 0
       },
-      "penny": {
+      "cent": {
         "code": "penny",
         "symbol": "p",
         "name": "British penny",
@@ -159,7 +159,7 @@
         "inputPrecession": 4,
         "shift": 0
       },
-      "SEN": {
+      "cent": {
         "code": "SEN",
         "symbol": "\u9322",
         "name": "Japanese sen",
