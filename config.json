@@ -206,3 +206,3423 @@
     }
   }
 }
+{
+  "BTC": {
+    "code": "BTC",
+    "precision": 8,
+    "units": {
+      "BTC": {
+        "code": "BTC",
+        "symbol": "₿",
+        "name": "Bitcoin",
+        "displayPrecesion": 8,
+        "inputPrecession": 8,
+        "shift": 0
+      },
+      "mBTC": {
+        "code": "mBTC",
+        "symbol": "m₿",
+        "name": "Milli-bitcoin",
+        "displayPrecesion": 4,
+        "inputPrecession": 5,
+        "shift": 3
+      },
+      "uBTC": {
+        "code": "uBTC",
+        "symbol": "μ₿",
+        "name": "Bits",
+        "displayPrecesion": 2,
+        "inputPrecession": 2,
+        "shift": 6
+      },
+      "sat": {
+        "code": "sat",
+        "symbol": "₿",
+        "name": "Satoshi",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 8
+      }
+    }
+  },
+  "EUR": {
+    "code": "EUR",
+    "precision": 5,
+    "units": {
+      "EUR": {
+        "code": "EUR",
+        "symbol": "€",
+        "name": "Euro",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Euro cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "USD": {
+    "code": "USD",
+    "precision": 5,
+    "units": {
+      "USD": {
+        "code": "USD",
+        "symbol": "$",
+        "name": "United States dollar",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "United States cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "GBP": {
+    "code": "GBP",
+    "precision": 5,
+    "units": {
+      "GBP": {
+        "code": "GBP",
+        "symbol": "£",
+        "name": "Pound sterling",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "penny": {
+        "code": "penny",
+        "symbol": "p",
+        "name": "British penny",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "AUD": {
+    "code": "AUD",
+    "precision": 5,
+    "units": {
+      "AUD": {
+        "code": "AUD",
+        "symbol": "A$",
+        "name": "Australian dollar",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Australian cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "HKD": {
+    "code": "HKD",
+    "precision": 5,
+    "units": {
+      "HKD": {
+        "code": "HKD",
+        "symbol": "HK$",
+        "name": "Hong Kong dollar",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Hong Kong cent",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "JPY": {
+    "code": "JPY",
+    "precision": 5,
+    "units": {
+      "JPY": {
+        "code": "JPY",
+        "symbol": "¤",
+        "name": "Japanese yen",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "SEN": {
+        "code": "SEN",
+        "symbol": "錢",
+        "name": "Japanese sen",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "PHP": {
+    "code": "PHP",
+    "precision": 5,
+    "units": {
+      "PHP": {
+        "code": "PHP",
+        "symbol": "₱",
+        "name": "Philippine peso",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Philippine centavo",
+        "displayPrecesion": 0,
+        "inputPrecession": 0,
+        "shift": 2
+      }
+    }
+  },
+  "XXX": {
+    "code": "XXX",
+    "precision": 5,
+    "units": {
+      "XXX": {
+        "code": "XXX",
+        "symbol": "",
+        "name": "Play",
+        "displayPrecesion": 2,
+        "inputPrecession": 4,
+        "shift": 0
+      }
+    }
+  },
+  "AED": {
+    "code": "AED",
+    "precision": 5,
+    "units": {
+      "AED": {
+        "code": "AED",
+        "symbol": ".د.ب",
+        "name": "Emirati dirham",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fils": {
+        "code": "fils",
+        "symbol": "فلس",
+        "name": "Emirati fils",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "AFN": {
+    "code": "AFN",
+    "precision": 5,
+    "units": {
+      "AFN": {
+        "code": "AFN",
+        "symbol": "؋",
+        "name": "Afghan afghani",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Pul": {
+        "code": "Pul",
+        "symbol": "",
+        "name": "Afghan Pul",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ALL": {
+    "code": "ALL",
+    "precision": 5,
+    "units": {
+      "ALL": {
+        "code": "ALL",
+        "symbol": "lek",
+        "name": "Albanian lek",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Qindarkë": {
+        "code": "Qindarkë",
+        "symbol": "",
+        "name": "Albanian Qindarkë",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "AMD": {
+    "code": "AMD",
+    "precision": 5,
+    "units": {
+      "AMD": {
+        "code": "AMD",
+        "symbol": "",
+        "name": "Armenian dram",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "luma": {
+        "code": "luma",
+        "symbol": "",
+        "name": "Armenian luma",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ANG": {
+    "code": "ANG",
+    "precision": 5,
+    "units": {
+      "ANG": {
+        "code": "ANG",
+        "symbol": "ƒ",
+        "name": "Dutch guilder",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Dutch cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "AOA": {
+    "code": "AOA",
+    "precision": 5,
+    "units": {
+      "AOA": {
+        "code": "AOA",
+        "symbol": "Kz",
+        "name": "Angolan Kwanza",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cêntimos": {
+        "code": "cêntimos",
+        "symbol": "",
+        "name": "Angolan cêntimos",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ARS": {
+    "code": "ARS",
+    "precision": 5,
+    "units": {
+      "ARS": {
+        "code": "ARS",
+        "symbol": "$",
+        "name": "Argentine peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Argentine centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "AWG": {
+    "code": "AWG",
+    "precision": 5,
+    "units": {
+      "AWG": {
+        "code": "AWG",
+        "symbol": "ƒ",
+        "name": "Arubin florin",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Arubin cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "AZN": {
+    "code": "AZN",
+    "precision": 5,
+    "units": {
+      "AZN": {
+        "code": "AZN",
+        "symbol": "ман",
+        "name": "Azerbaijani manat",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Qepik": {
+        "code": "Qepik",
+        "symbol": "qr",
+        "name": "Azerbaijani Qepik",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BAM": {
+    "code": "BAM",
+    "precision": 5,
+    "units": {
+      "BAM": {
+        "code": "BAM",
+        "symbol": "KM",
+        "name": "Bosnian Convertible covertible marks",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fening": {
+        "code": "fening",
+        "symbol": "",
+        "name": "Bosnian Convertible fening",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BBD": {
+    "code": "BBD",
+    "precision": 5,
+    "units": {
+      "BBD": {
+        "code": "BBD",
+        "symbol": "$",
+        "name": "Barbadian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Barbadian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BDT": {
+    "code": "BDT",
+    "precision": 5,
+    "units": {
+      "BDT": {
+        "code": "BDT",
+        "symbol": "Tk",
+        "name": "Bangladeshi Taka",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Poisha": {
+        "code": "Poisha",
+        "symbol": "",
+        "name": "Bangladeshi Poisha",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BGN": {
+    "code": "BGN",
+    "precision": 5,
+    "units": {
+      "BGN": {
+        "code": "BGN",
+        "symbol": "лв",
+        "name": "Bulgarian lev",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "stotinki": {
+        "code": "stotinki",
+        "symbol": "стотинки",
+        "name": "Bulgarian stotinki",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BHD": {
+    "code": "BHD",
+    "precision": 5,
+    "units": {
+      "BHD": {
+        "code": "BHD",
+        "symbol": ".د.ب or BD",
+        "name": "Bahraini dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fils": {
+        "code": "fils",
+        "symbol": "",
+        "name": "Bahraini fils",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BIF": {
+    "code": "BIF",
+    "precision": 5,
+    "units": {
+      "BIF": {
+        "code": "BIF",
+        "symbol": "",
+        "name": "Burundian franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "Burundian centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BMD": {
+    "code": "BMD",
+    "precision": 5,
+    "units": {
+      "BMD": {
+        "code": "BMD",
+        "symbol": "$",
+        "name": "Bermudian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Bermudian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BND": {
+    "code": "BND",
+    "precision": 5,
+    "units": {
+      "BND": {
+        "code": "BND",
+        "symbol": "$",
+        "name": "Bruneian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Bruneian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BOB": {
+    "code": "BOB",
+    "precision": 5,
+    "units": {
+      "BOB": {
+        "code": "BOB",
+        "symbol": "$b",
+        "name": "Bolivian boliviano",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Bolivian centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BRL": {
+    "code": "BRL",
+    "precision": 5,
+    "units": {
+      "BRL": {
+        "code": "BRL",
+        "symbol": "R$",
+        "name": "Brazilian real",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Brazilian centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BSD": {
+    "code": "BSD",
+    "precision": 5,
+    "units": {
+      "BSD": {
+        "code": "BSD",
+        "symbol": "B$",
+        "name": "Bahamian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Bahamian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BTN": {
+    "code": "BTN",
+    "precision": 5,
+    "units": {
+      "BTN": {
+        "code": "BTN",
+        "symbol": "Nu.",
+        "name": "Bhutanese Ngultrum",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Chhertum": {
+        "code": "Chhertum",
+        "symbol": "Ch.",
+        "name": "Bhutanese Chhertum",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BWP": {
+    "code": "BWP",
+    "precision": 5,
+    "units": {
+      "BWP": {
+        "code": "BWP",
+        "symbol": "P",
+        "name": "Botswana Pula",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Thebe": {
+        "code": "Thebe",
+        "symbol": "t",
+        "name": "Botswana Thebe",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BYR": {
+    "code": "BYR",
+    "precision": 5,
+    "units": {
+      "BYR": {
+        "code": "BYR",
+        "symbol": "р",
+        "name": "Belarusian ruble",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "kapeyka": {
+        "code": "kapeyka",
+        "symbol": "к",
+        "name": "Belarusian kapeyka",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "BZD": {
+    "code": "BZD",
+    "precision": 5,
+    "units": {
+      "BZD": {
+        "code": "BZD",
+        "symbol": "BZ$",
+        "name": "Belize dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Belize cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CAD": {
+    "code": "CAD",
+    "precision": 5,
+    "units": {
+      "CAD": {
+        "code": "CAD",
+        "symbol": "$",
+        "name": "Canadian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Canadian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CHF": {
+    "code": "CHF",
+    "precision": 5,
+    "units": {
+      "CHF": {
+        "code": "CHF",
+        "symbol": "CHF",
+        "name": "Swiss franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "rappen": {
+        "code": "rappen",
+        "symbol": "Rp.",
+        "name": "Swiss rappen",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CLP": {
+    "code": "CLP",
+    "precision": 5,
+    "units": {
+      "CLP": {
+        "code": "CLP",
+        "symbol": "$",
+        "name": "Chilean peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Chilean centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CNY": {
+    "code": "CNY",
+    "precision": 5,
+    "units": {
+      "CNY": {
+        "code": "CNY",
+        "symbol": "¥",
+        "name": "Yuan or chinese yuan",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "jiǎo": {
+        "code": "jiǎo",
+        "symbol": "角",
+        "name": "Yuan or chinese jiǎo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "COP": {
+    "code": "COP",
+    "precision": 5,
+    "units": {
+      "COP": {
+        "code": "COP",
+        "symbol": "$",
+        "name": "Colombian peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Colombian centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CRC": {
+    "code": "CRC",
+    "precision": 5,
+    "units": {
+      "CRC": {
+        "code": "CRC",
+        "symbol": "₡",
+        "name": "Costa Rican colón",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "céntimo": {
+        "code": "céntimo",
+        "symbol": "₡",
+        "name": "Costa Rican céntimo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CUC": {
+    "code": "CUC",
+    "precision": 5,
+    "units": {
+      "CUC": {
+        "code": "CUC",
+        "symbol": "$",
+        "name": "Cuban convertible peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "¢",
+        "name": "Cuban convertible centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CUP": {
+    "code": "CUP",
+    "precision": 5,
+    "units": {
+      "CUP": {
+        "code": "CUP",
+        "symbol": "₱",
+        "name": "Cuban peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "¢",
+        "name": "Cuban centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CVE": {
+    "code": "CVE",
+    "precision": 5,
+    "units": {
+      "CVE": {
+        "code": "CVE",
+        "symbol": "$",
+        "name": "Cape Verdean escudo",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Cape Verdean centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "CZK": {
+    "code": "CZK",
+    "precision": 5,
+    "units": {
+      "CZK": {
+        "code": "CZK",
+        "symbol": "Kč",
+        "name": "Czech koruna",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "haléř": {
+        "code": "haléř",
+        "symbol": "h",
+        "name": "Czech haléř",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "DJF": {
+    "code": "DJF",
+    "precision": 5,
+    "units": {
+      "DJF": {
+        "code": "DJF",
+        "symbol": "fdj",
+        "name": "Djiboutian franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "Djiboutian centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "DKK": {
+    "code": "DKK",
+    "precision": 5,
+    "units": {
+      "DKK": {
+        "code": "DKK",
+        "symbol": "kr",
+        "name": "Danish kroner",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "kroner": {
+        "code": "kroner",
+        "symbol": "øre",
+        "name": "Danish kroner",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "DOP": {
+    "code": "DOP",
+    "precision": 5,
+    "units": {
+      "DOP": {
+        "code": "DOP",
+        "symbol": "$",
+        "name": "Dominican peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Dominican centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "DZD": {
+    "code": "DZD",
+    "precision": 5,
+    "units": {
+      "DZD": {
+        "code": "DZD",
+        "symbol": "جد",
+        "name": "Algerian dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Santeem": {
+        "code": "Santeem",
+        "symbol": "",
+        "name": "Algerian Santeem",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "EGP": {
+    "code": "EGP",
+    "precision": 5,
+    "units": {
+      "EGP": {
+        "code": "EGP",
+        "symbol": "£ ",
+        "name": "Egyptian pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "piastre": {
+        "code": "piastre",
+        "symbol": "Pt",
+        "name": "Egyptian piastre",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ERN": {
+    "code": "ERN",
+    "precision": 5,
+    "units": {
+      "ERN": {
+        "code": "ERN",
+        "symbol": "ናቕፋ",
+        "name": "Eritrean nafka",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Eritrean cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ETB": {
+    "code": "ETB",
+    "precision": 5,
+    "units": {
+      "ETB": {
+        "code": "ETB",
+        "symbol": "Br",
+        "name": "Ethiopian Birr",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "santim": {
+        "code": "santim",
+        "symbol": "",
+        "name": "Ethiopian santim",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "FJD": {
+    "code": "FJD",
+    "precision": 5,
+    "units": {
+      "FJD": {
+        "code": "FJD",
+        "symbol": "$",
+        "name": "Fijian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Fijian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "FKP": {
+    "code": "FKP",
+    "precision": 5,
+    "units": {
+      "FKP": {
+        "code": "FKP",
+        "symbol": "£",
+        "name": "Falkland Island pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "penny": {
+        "code": "penny",
+        "symbol": "p",
+        "name": "Falkland Island penny",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GEL": {
+    "code": "GEL",
+    "precision": 5,
+    "units": {
+      "GEL": {
+        "code": "GEL",
+        "symbol": "ლ",
+        "name": "Georgian lari",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "tetri": {
+        "code": "tetri",
+        "symbol": "",
+        "name": "Georgian tetri",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GHS": {
+    "code": "GHS",
+    "precision": 5,
+    "units": {
+      "GHS": {
+        "code": "GHS",
+        "symbol": "GH¢",
+        "name": "Ghanaian Cedi",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Pesewa": {
+        "code": "Pesewa",
+        "symbol": "Gp",
+        "name": "Ghanaian Pesewa",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GIP": {
+    "code": "GIP",
+    "precision": 5,
+    "units": {
+      "GIP": {
+        "code": "GIP",
+        "symbol": "£",
+        "name": "Gibraltar pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "penny": {
+        "code": "penny",
+        "symbol": "p",
+        "name": "Gibraltar penny",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GMD": {
+    "code": "GMD",
+    "precision": 5,
+    "units": {
+      "GMD": {
+        "code": "GMD",
+        "symbol": "",
+        "name": "Gambian dalasi",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "butut": {
+        "code": "butut",
+        "symbol": "",
+        "name": "Gambian butut",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GNF": {
+    "code": "GNF",
+    "precision": 5,
+    "units": {
+      "GNF": {
+        "code": "GNF",
+        "symbol": "",
+        "name": "Guinean franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "Guinean centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GTQ": {
+    "code": "GTQ",
+    "precision": 5,
+    "units": {
+      "GTQ": {
+        "code": "GTQ",
+        "symbol": "Q",
+        "name": "Guatemalan quetzales",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Guatemalan centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "GYD": {
+    "code": "GYD",
+    "precision": 5,
+    "units": {
+      "GYD": {
+        "code": "GYD",
+        "symbol": "$",
+        "name": "Guyanese dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Guyanese cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "HNL": {
+    "code": "HNL",
+    "precision": 5,
+    "units": {
+      "HNL": {
+        "code": "HNL",
+        "symbol": "L",
+        "name": "Honduran lempira",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Honduran centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "HRK": {
+    "code": "HRK",
+    "precision": 5,
+    "units": {
+      "HRK": {
+        "code": "HRK",
+        "symbol": "kn",
+        "name": "Croatian kuna",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "lipa": {
+        "code": "lipa",
+        "symbol": "lp",
+        "name": "Croatian lipa",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "HTG": {
+    "code": "HTG",
+    "precision": 5,
+    "units": {
+      "HTG": {
+        "code": "HTG",
+        "symbol": "G",
+        "name": "Haitian gourde",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "Haitian centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "HUF": {
+    "code": "HUF",
+    "precision": 5,
+    "units": {
+      "HUF": {
+        "code": "HUF",
+        "symbol": "Ft",
+        "name": "Hungarian forint",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fillér": {
+        "code": "fillér",
+        "symbol": "",
+        "name": "Hungarian fillér",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "IDR": {
+    "code": "IDR",
+    "precision": 5,
+    "units": {
+      "IDR": {
+        "code": "IDR",
+        "symbol": "Rp",
+        "name": "Indonesian Rupiah",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Sen": {
+        "code": "Sen",
+        "symbol": "",
+        "name": "Indonesian Sen",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ILS": {
+    "code": "ILS",
+    "precision": 5,
+    "units": {
+      "ILS": {
+        "code": "ILS",
+        "symbol": "₪",
+        "name": "Israeli Shekel",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Agorat": {
+        "code": "Agorat",
+        "symbol": "",
+        "name": "Israeli Agorat",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "INR": {
+    "code": "INR",
+    "precision": 5,
+    "units": {
+      "INR": {
+        "code": "INR",
+        "symbol": "₹",
+        "name": "Indian Rupee",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "paisa": {
+        "code": "paisa",
+        "symbol": "p",
+        "name": "Indian paisa",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "IQD": {
+    "code": "IQD",
+    "precision": 5,
+    "units": {
+      "IQD": {
+        "code": "IQD",
+        "symbol": "ع.د",
+        "name": "Iraqi dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fils": {
+        "code": "fils",
+        "symbol": "",
+        "name": "Iraqi fils",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "IRR": {
+    "code": "IRR",
+    "precision": 5,
+    "units": {
+      "IRR": {
+        "code": "IRR",
+        "symbol": "",
+        "name": "Iranian rial",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "dinar": {
+        "code": "dinar",
+        "symbol": "",
+        "name": "Iranian dinar",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ISK": {
+    "code": "ISK",
+    "precision": 5,
+    "units": {
+      "ISK": {
+        "code": "ISK",
+        "symbol": "kr",
+        "name": "Icelandic krona",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "eyrir": {
+        "code": "eyrir",
+        "symbol": "",
+        "name": "Icelandic eyrir",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "JMD": {
+    "code": "JMD",
+    "precision": 5,
+    "units": {
+      "JMD": {
+        "code": "JMD",
+        "symbol": "J$",
+        "name": "Jamaican dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "Jamaican cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "JOD": {
+    "code": "JOD",
+    "precision": 5,
+    "units": {
+      "JOD": {
+        "code": "JOD",
+        "symbol": "",
+        "name": "Jordanian Dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "qirsh ou piastre": {
+        "code": "qirsh ou piastre",
+        "symbol": "",
+        "name": "Jordanian qirsh ou piastre",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KES": {
+    "code": "KES",
+    "precision": 5,
+    "units": {
+      "KES": {
+        "code": "KES",
+        "symbol": "KSh",
+        "name": "Kenyan Shilling",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "Kenyan cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KGS": {
+    "code": "KGS",
+    "precision": 5,
+    "units": {
+      "KGS": {
+        "code": "KGS",
+        "symbol": "лв",
+        "name": "Kyrgyzstani som",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "tyiyn": {
+        "code": "tyiyn",
+        "symbol": "",
+        "name": "Kyrgyzstani tyiyn",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KHR": {
+    "code": "KHR",
+    "precision": 5,
+    "units": {
+      "KHR": {
+        "code": "KHR",
+        "symbol": "៛",
+        "name": "Cambodian riel",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "kak": {
+        "code": "kak",
+        "symbol": "",
+        "name": "Cambodian kak",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KMF": {
+    "code": "KMF",
+    "precision": 5,
+    "units": {
+      "KMF": {
+        "code": "KMF",
+        "symbol": "",
+        "name": "Comoran franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "Comoran centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KPW": {
+    "code": "KPW",
+    "precision": 5,
+    "units": {
+      "KPW": {
+        "code": "KPW",
+        "symbol": "₩",
+        "name": "North Korean won",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "chon": {
+        "code": "chon",
+        "symbol": "",
+        "name": "North Korean chon",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KRW": {
+    "code": "KRW",
+    "precision": 5,
+    "units": {
+      "KRW": {
+        "code": "KRW",
+        "symbol": "₩",
+        "name": "South Korean won",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "jeon": {
+        "code": "jeon",
+        "symbol": "",
+        "name": "South Korean jeon",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KWD": {
+    "code": "KWD",
+    "precision": 5,
+    "units": {
+      "KWD": {
+        "code": "KWD",
+        "symbol": "ك",
+        "name": "Kuwaiti dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fils": {
+        "code": "fils",
+        "symbol": "",
+        "name": "Kuwaiti fils",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KYD": {
+    "code": "KYD",
+    "precision": 5,
+    "units": {
+      "KYD": {
+        "code": "KYD",
+        "symbol": "$",
+        "name": "Caymanian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Caymanian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "KZT": {
+    "code": "KZT",
+    "precision": 5,
+    "units": {
+      "KZT": {
+        "code": "KZT",
+        "symbol": "₸",
+        "name": "Kazakhstani tenge",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "tïın": {
+        "code": "tïın",
+        "symbol": "",
+        "name": "Kazakhstani tïın",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LAK": {
+    "code": "LAK",
+    "precision": 5,
+    "units": {
+      "LAK": {
+        "code": "LAK",
+        "symbol": "₭",
+        "name": "Lao or Laotian Kip",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Att": {
+        "code": "Att",
+        "symbol": "",
+        "name": "Lao or Laotian Att",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LBP": {
+    "code": "LBP",
+    "precision": 5,
+    "units": {
+      "LBP": {
+        "code": "LBP",
+        "symbol": "ل.ل",
+        "name": "Lebanese pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "piastre": {
+        "code": "piastre",
+        "symbol": "",
+        "name": "Lebanese piastre",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LKR": {
+    "code": "LKR",
+    "precision": 5,
+    "units": {
+      "LKR": {
+        "code": "LKR",
+        "symbol": "Rs",
+        "name": "Sri Lankan Rupee",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Sri Lankan cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LRD": {
+    "code": "LRD",
+    "precision": 5,
+    "units": {
+      "LRD": {
+        "code": "LRD",
+        "symbol": "$",
+        "name": "Liberian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "Liberian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LSL": {
+    "code": "LSL",
+    "precision": 5,
+    "units": {
+      "LSL": {
+        "code": "LSL",
+        "symbol": "L or M",
+        "name": "Lesotho loti (maloti)",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "sente (lisente)": {
+        "code": "sente (lisente)",
+        "symbol": "",
+        "name": "Lesotho sente (lisente)",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LTL": {
+    "code": "LTL",
+    "precision": 5,
+    "units": {
+      "LTL": {
+        "code": "LTL",
+        "symbol": "Lt",
+        "name": "Lithuanian litas",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centas": {
+        "code": "centas",
+        "symbol": "ct",
+        "name": "Lithuanian centas",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "LYD": {
+    "code": "LYD",
+    "precision": 5,
+    "units": {
+      "LYD": {
+        "code": "LYD",
+        "symbol": " د.ل",
+        "name": "Libyan dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "dirham": {
+        "code": "dirham",
+        "symbol": "",
+        "name": "Libyan dirham",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MAD": {
+    "code": "MAD",
+    "precision": 5,
+    "units": {
+      "MAD": {
+        "code": "MAD",
+        "symbol": "م.د.",
+        "name": "Moroccan dirham",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "santim": {
+        "code": "santim",
+        "symbol": "santimat",
+        "name": "Moroccan santim",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MDL": {
+    "code": "MDL",
+    "precision": 5,
+    "units": {
+      "MDL": {
+        "code": "MDL",
+        "symbol": "L",
+        "name": "Moldovan Leu",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Ban": {
+        "code": "Ban",
+        "symbol": "",
+        "name": "Moldovan Ban",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MGA": {
+    "code": "MGA",
+    "precision": 5,
+    "units": {
+      "MGA": {
+        "code": "MGA",
+        "symbol": "Ar",
+        "name": "Malagasy Ariary",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Iraimbilanja": {
+        "code": "Iraimbilanja",
+        "symbol": "",
+        "name": "Malagasy Iraimbilanja",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MKD": {
+    "code": "MKD",
+    "precision": 5,
+    "units": {
+      "MKD": {
+        "code": "MKD",
+        "symbol": "ден",
+        "name": "Macedonian denar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "deni": {
+        "code": "deni",
+        "symbol": "",
+        "name": "Macedonian deni",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MMK": {
+    "code": "MMK",
+    "precision": 5,
+    "units": {
+      "MMK": {
+        "code": "MMK",
+        "symbol": "K",
+        "name": "Burmese Kyat",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Pya": {
+        "code": "Pya",
+        "symbol": "",
+        "name": "Burmese Pya",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MNT": {
+    "code": "MNT",
+    "precision": 5,
+    "units": {
+      "MNT": {
+        "code": "MNT",
+        "symbol": "₮",
+        "name": "Mongolian Tughrik",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Möngö": {
+        "code": "Möngö",
+        "symbol": "",
+        "name": "Mongolian Möngö",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MOP": {
+    "code": "MOP",
+    "precision": 5,
+    "units": {
+      "MOP": {
+        "code": "MOP",
+        "symbol": "MOP$",
+        "name": "Macau pataca",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "ho": {
+        "code": "ho",
+        "symbol": "毫",
+        "name": "Macau ho",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MRO": {
+    "code": "MRO",
+    "precision": 5,
+    "units": {
+      "MRO": {
+        "code": "MRO",
+        "symbol": "UM",
+        "name": "Mauritanian Ouguiya",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "khoums": {
+        "code": "khoums",
+        "symbol": "",
+        "name": "Mauritanian khoums",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MUR": {
+    "code": "MUR",
+    "precision": 5,
+    "units": {
+      "MUR": {
+        "code": "MUR",
+        "symbol": "Rs",
+        "name": "Mauritian rupee",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Mauritian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MVR": {
+    "code": "MVR",
+    "precision": 5,
+    "units": {
+      "MVR": {
+        "code": "MVR",
+        "symbol": "rf",
+        "name": "Maldivian Rufiyaa",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "laari": {
+        "code": "laari",
+        "symbol": "",
+        "name": "Maldivian laari",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MWK": {
+    "code": "MWK",
+    "precision": 5,
+    "units": {
+      "MWK": {
+        "code": "MWK",
+        "symbol": "MK",
+        "name": "Malawian Kwacha",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Tambala": {
+        "code": "Tambala",
+        "symbol": "",
+        "name": "Malawian Tambala",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MXN": {
+    "code": "MXN",
+    "precision": 5,
+    "units": {
+      "MXN": {
+        "code": "MXN",
+        "symbol": "$",
+        "name": "Mexico dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "¢",
+        "name": "Mexico centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MYR": {
+    "code": "MYR",
+    "precision": 5,
+    "units": {
+      "MYR": {
+        "code": "MYR",
+        "symbol": "RM",
+        "name": "Malaysian Ringgit",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Sen": {
+        "code": "Sen",
+        "symbol": "Sen",
+        "name": "Malaysian Sen",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "MZN": {
+    "code": "MZN",
+    "precision": 5,
+    "units": {
+      "MZN": {
+        "code": "MZN",
+        "symbol": "MT",
+        "name": "Mozambican metical",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Mozambican centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "NAD": {
+    "code": "NAD",
+    "precision": 5,
+    "units": {
+      "NAD": {
+        "code": "NAD",
+        "symbol": "$",
+        "name": "Namibian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "Namibian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "NGN": {
+    "code": "NGN",
+    "precision": 5,
+    "units": {
+      "NGN": {
+        "code": "NGN",
+        "symbol": "₦",
+        "name": "Nigerian Naira",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Kobo": {
+        "code": "Kobo",
+        "symbol": "",
+        "name": "Nigerian Kobo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "NIO": {
+    "code": "NIO",
+    "precision": 5,
+    "units": {
+      "NIO": {
+        "code": "NIO",
+        "symbol": "C$",
+        "name": "Nicaraguan córdoba",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centavo": {
+        "code": "centavo",
+        "symbol": "",
+        "name": "Nicaraguan centavo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "NOK": {
+    "code": "NOK",
+    "precision": 5,
+    "units": {
+      "NOK": {
+        "code": "NOK",
+        "symbol": "kr",
+        "name": "Norwegian Krone",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "øre": {
+        "code": "øre",
+        "symbol": "",
+        "name": "Norwegian øre",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "NPR": {
+    "code": "NPR",
+    "precision": 5,
+    "units": {
+      "NPR": {
+        "code": "NPR",
+        "symbol": "Rs",
+        "name": "Nepalese Rupee",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Paisa": {
+        "code": "Paisa",
+        "symbol": "",
+        "name": "Nepalese Paisa",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "NZD": {
+    "code": "NZD",
+    "precision": 5,
+    "units": {
+      "NZD": {
+        "code": "NZD",
+        "symbol": "$",
+        "name": "New Zealand dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "New Zealand cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "OMR": {
+    "code": "OMR",
+    "precision": 5,
+    "units": {
+      "OMR": {
+        "code": "OMR",
+        "symbol": "ع.ر.",
+        "name": "Omani rial",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "baisa": {
+        "code": "baisa",
+        "symbol": "bz",
+        "name": "Omani baisa",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "PAB": {
+    "code": "PAB",
+    "precision": 5,
+    "units": {
+      "PAB": {
+        "code": "PAB",
+        "symbol": "B/",
+        "name": "Balboa balboa",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Centésimo": {
+        "code": "Centésimo",
+        "symbol": "",
+        "name": "Balboa Centésimo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "PEN": {
+    "code": "PEN",
+    "precision": 5,
+    "units": {
+      "PEN": {
+        "code": "PEN",
+        "symbol": "S/",
+        "name": "Peruvian nuevo nuevo sol",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "céntimo": {
+        "code": "céntimo",
+        "symbol": "",
+        "name": "Peruvian nuevo céntimo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "PGK": {
+    "code": "PGK",
+    "precision": 5,
+    "units": {
+      "PGK": {
+        "code": "PGK",
+        "symbol": "K",
+        "name": "Papua New Guinean Kina",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Toea": {
+        "code": "Toea",
+        "symbol": "",
+        "name": "Papua New Guinean Toea",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "PKR": {
+    "code": "PKR",
+    "precision": 5,
+    "units": {
+      "PKR": {
+        "code": "PKR",
+        "symbol": "Rs",
+        "name": "Pakistani Rupee",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Paisa": {
+        "code": "Paisa",
+        "symbol": "",
+        "name": "Pakistani Paisa",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "PLN": {
+    "code": "PLN",
+    "precision": 5,
+    "units": {
+      "PLN": {
+        "code": "PLN",
+        "symbol": "zł",
+        "name": "Polish złoty",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Grosz": {
+        "code": "Grosz",
+        "symbol": "gr",
+        "name": "Polish Grosz",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "PYG": {
+    "code": "PYG",
+    "precision": 5,
+    "units": {
+      "PYG": {
+        "code": "PYG",
+        "symbol": "₲",
+        "name": "Paraguayan guarani",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "céntimo": {
+        "code": "céntimo",
+        "symbol": "",
+        "name": "Paraguayan céntimo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "QAR": {
+    "code": "QAR",
+    "precision": 5,
+    "units": {
+      "QAR": {
+        "code": "QAR",
+        "symbol": "ق.ر ",
+        "name": "Qatari riyal",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "dirham": {
+        "code": "dirham",
+        "symbol": "",
+        "name": "Qatari dirham",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "RON": {
+    "code": "RON",
+    "precision": 5,
+    "units": {
+      "RON": {
+        "code": "RON",
+        "symbol": "lei",
+        "name": "Romanian leu",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "bani": {
+        "code": "bani",
+        "symbol": "",
+        "name": "Romanian bani",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "RSD": {
+    "code": "RSD",
+    "precision": 5,
+    "units": {
+      "RSD": {
+        "code": "RSD",
+        "symbol": "РСД",
+        "name": "Serbian dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "para": {
+        "code": "para",
+        "symbol": "",
+        "name": "Serbian para",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "RUB": {
+    "code": "RUB",
+    "precision": 5,
+    "units": {
+      "RUB": {
+        "code": "RUB",
+        "symbol": "₽",
+        "name": "Russian rouble",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "kopeyka": {
+        "code": "kopeyka",
+        "symbol": "к",
+        "name": "Russian kopeyka",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "RWF": {
+    "code": "RWF",
+    "precision": 5,
+    "units": {
+      "RWF": {
+        "code": "RWF",
+        "symbol": "FRw, RF, R₣",
+        "name": "Rwandan franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "Rwandan centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SAR": {
+    "code": "SAR",
+    "precision": 5,
+    "units": {
+      "SAR": {
+        "code": "SAR",
+        "symbol": "ر.س",
+        "name": "Saudi Arabian riyal",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Halala": {
+        "code": "Halala",
+        "symbol": "",
+        "name": "Saudi Arabian Halala",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SBD": {
+    "code": "SBD",
+    "precision": 5,
+    "units": {
+      "SBD": {
+        "code": "SBD",
+        "symbol": "SI$",
+        "name": "Solomon Islander dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Solomon Islander cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SCR": {
+    "code": "SCR",
+    "precision": 5,
+    "units": {
+      "SCR": {
+        "code": "SCR",
+        "symbol": "Rs",
+        "name": "Seychellois rupee",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Seychellois cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SDG": {
+    "code": "SDG",
+    "precision": 5,
+    "units": {
+      "SDG": {
+        "code": "SDG",
+        "symbol": "",
+        "name": "Sudanese pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "piastres": {
+        "code": "piastres",
+        "symbol": ".‏س.ج",
+        "name": "Sudanese piastres",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SEK": {
+    "code": "SEK",
+    "precision": 5,
+    "units": {
+      "SEK": {
+        "code": "SEK",
+        "symbol": "kr",
+        "name": "Swedish krona",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "ören": {
+        "code": "ören",
+        "symbol": "",
+        "name": "Swedish ören",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SGD": {
+    "code": "SGD",
+    "precision": 5,
+    "units": {
+      "SGD": {
+        "code": "SGD",
+        "symbol": "$",
+        "name": "Singapore dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "S¢",
+        "name": "Singapore cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SLL": {
+    "code": "SLL",
+    "precision": 5,
+    "units": {
+      "SLL": {
+        "code": "SLL",
+        "symbol": "Le",
+        "name": "Sierra Leonean Leone",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "Sierra Leonean cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SOS": {
+    "code": "SOS",
+    "precision": 5,
+    "units": {
+      "SOS": {
+        "code": "SOS",
+        "symbol": "S",
+        "name": "Somali shilling",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "senti": {
+        "code": "senti",
+        "symbol": "",
+        "name": "Somali senti",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SRD": {
+    "code": "SRD",
+    "precision": 5,
+    "units": {
+      "SRD": {
+        "code": "SRD",
+        "symbol": "$",
+        "name": "Surinamese dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Surinamese cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SSP": {
+    "code": "SSP",
+    "precision": 5,
+    "units": {
+      "SSP": {
+        "code": "SSP",
+        "symbol": "£",
+        "name": "South Sudanese pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "piaster": {
+        "code": "piaster",
+        "symbol": "",
+        "name": "South Sudanese piaster",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SYP": {
+    "code": "SYP",
+    "precision": 5,
+    "units": {
+      "SYP": {
+        "code": "SYP",
+        "symbol": "£",
+        "name": "Syrian pound",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "piastre": {
+        "code": "piastre",
+        "symbol": "",
+        "name": "Syrian piastre",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "SZL": {
+    "code": "SZL",
+    "precision": 5,
+    "units": {
+      "SZL": {
+        "code": "SZL",
+        "symbol": "L or E",
+        "name": "Swazi Lilangeni or emalangeni",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Swazi cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "THB": {
+    "code": "THB",
+    "precision": 5,
+    "units": {
+      "THB": {
+        "code": "THB",
+        "symbol": "฿",
+        "name": "Thai baht",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "satang": {
+        "code": "satang",
+        "symbol": "",
+        "name": "Thai satang",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TJS": {
+    "code": "TJS",
+    "precision": 5,
+    "units": {
+      "TJS": {
+        "code": "TJS",
+        "symbol": "",
+        "name": "Tajikistani somoni",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "diram": {
+        "code": "diram",
+        "symbol": "",
+        "name": "Tajikistani diram",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TMT": {
+    "code": "TMT",
+    "precision": 5,
+    "units": {
+      "TMT": {
+        "code": "TMT",
+        "symbol": "T",
+        "name": "Turkmenistan manat",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "tenge": {
+        "code": "tenge",
+        "symbol": "",
+        "name": "Turkmenistan tenge",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TND": {
+    "code": "TND",
+    "precision": 5,
+    "units": {
+      "TND": {
+        "code": "TND",
+        "symbol": "",
+        "name": "Tunisian dinar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "milim or millime": {
+        "code": "milim or millime",
+        "symbol": "ت.د",
+        "name": "Tunisian milim or millime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TOP": {
+    "code": "TOP",
+    "precision": 5,
+    "units": {
+      "TOP": {
+        "code": "TOP",
+        "symbol": "T$",
+        "name": "Tongan hau",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "seniti": {
+        "code": "seniti",
+        "symbol": "¢",
+        "name": "Tongan seniti",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TRY": {
+    "code": "TRY",
+    "precision": 5,
+    "units": {
+      "TRY": {
+        "code": "TRY",
+        "symbol": "",
+        "name": "Turkish lira",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "kuruş": {
+        "code": "kuruş",
+        "symbol": "Kr",
+        "name": "Turkish kuruş",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TTD": {
+    "code": "TTD",
+    "precision": 5,
+    "units": {
+      "TTD": {
+        "code": "TTD",
+        "symbol": "TT$",
+        "name": "Trinidadian dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Trinidadian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TWD": {
+    "code": "TWD",
+    "precision": 5,
+    "units": {
+      "TWD": {
+        "code": "TWD",
+        "symbol": "NT$",
+        "name": "Taiwan New dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "jiao": {
+        "code": "jiao",
+        "symbol": "角",
+        "name": "Taiwan New jiao",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "TZS": {
+    "code": "TZS",
+    "precision": 5,
+    "units": {
+      "TZS": {
+        "code": "TZS",
+        "symbol": "Sh",
+        "name": "Tanzanian Shilling",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Tanzanian cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "UAH": {
+    "code": "UAH",
+    "precision": 5,
+    "units": {
+      "UAH": {
+        "code": "UAH",
+        "symbol": "₴",
+        "name": "Ukrainian Hryvnia",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Kopiyka": {
+        "code": "Kopiyka",
+        "symbol": "",
+        "name": "Ukrainian Kopiyka",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "UGX": {
+    "code": "UGX",
+    "precision": 5,
+    "units": {
+      "UGX": {
+        "code": "UGX",
+        "symbol": "USh",
+        "name": "Ugandan Shilling",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Ugandan cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "UYU": {
+    "code": "UYU",
+    "precision": 5,
+    "units": {
+      "UYU": {
+        "code": "UYU",
+        "symbol": "$U",
+        "name": "Uruguayan peso",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centésimo": {
+        "code": "centésimo",
+        "symbol": "¢",
+        "name": "Uruguayan centésimo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "UZS": {
+    "code": "UZS",
+    "precision": 5,
+    "units": {
+      "UZS": {
+        "code": "UZS",
+        "symbol": "лв",
+        "name": "Uzbekistani som",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Tiyin": {
+        "code": "Tiyin",
+        "symbol": "",
+        "name": "Uzbekistani Tiyin",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "VEF": {
+    "code": "VEF",
+    "precision": 5,
+    "units": {
+      "VEF": {
+        "code": "VEF",
+        "symbol": "Bs",
+        "name": "Venezuelan bolívares fuertes",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "céntimo": {
+        "code": "céntimo",
+        "symbol": "¢",
+        "name": "Venezuelan céntimo",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "VND": {
+    "code": "VND",
+    "precision": 5,
+    "units": {
+      "VND": {
+        "code": "VND",
+        "symbol": "₫",
+        "name": "Vietnamese dong",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "Hào": {
+        "code": "Hào",
+        "symbol": "",
+        "name": "Vietnamese Hào",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "VUV": {
+    "code": "VUV",
+    "precision": 5,
+    "units": {
+      "VUV": {
+        "code": "VUV",
+        "symbol": "VT",
+        "name": "Ni-Vanuatu vatu",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "": {
+        "code": "",
+        "symbol": "",
+        "name": "Ni-Vanuatu ",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "WST": {
+    "code": "WST",
+    "precision": 5,
+    "units": {
+      "WST": {
+        "code": "WST",
+        "symbol": "$",
+        "name": "Samoan tālā",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "sene": {
+        "code": "sene",
+        "symbol": "",
+        "name": "Samoan sene",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "XCD": {
+    "code": "XCD",
+    "precision": 5,
+    "units": {
+      "XCD": {
+        "code": "XCD",
+        "symbol": "EC$",
+        "name": "East Caribbean dollar",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "East Caribbean cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "XOF": {
+    "code": "XOF",
+    "precision": 5,
+    "units": {
+      "XOF": {
+        "code": "XOF",
+        "symbol": "",
+        "name": "CFA franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "CFA centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "XPF": {
+    "code": "XPF",
+    "precision": 5,
+    "units": {
+      "XPF": {
+        "code": "XPF",
+        "symbol": "",
+        "name": "CFP franc",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "centime": {
+        "code": "centime",
+        "symbol": "",
+        "name": "CFP centime",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "YER": {
+    "code": "YER",
+    "precision": 5,
+    "units": {
+      "YER": {
+        "code": "YER",
+        "symbol": "",
+        "name": "Yemeni rial",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "fils": {
+        "code": "fils",
+        "symbol": "",
+        "name": "Yemeni fils",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ZAR": {
+    "code": "ZAR",
+    "precision": 5,
+    "units": {
+      "ZAR": {
+        "code": "ZAR",
+        "symbol": "R",
+        "name": "South African Rand",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "South African cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ZMW": {
+    "code": "ZMW",
+    "precision": 5,
+    "units": {
+      "ZMW": {
+        "code": "ZMW",
+        "symbol": "ZMK",
+        "name": "Zambian Kwacha",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "ngwee": {
+        "code": "ngwee",
+        "symbol": "",
+        "name": "Zambian ngwee",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  },
+  "ZWD": {
+    "code": "ZWD",
+    "precision": 5,
+    "units": {
+      "ZWD": {
+        "code": "ZWD",
+        "symbol": "Z$",
+        "name": "Zimbabwean dolalr",
+        "shift": 0,
+        "displayPrecesion": 2,
+        "inputPrecession": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Zimbabwean cent",
+        "shift": 2,
+        "displayPrecesion": 0,
+        "inputPrecession": 0
+      }
+    }
+  }
+}
