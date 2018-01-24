@@ -9,7 +9,7 @@ const composeUnit =
   (worldUnit, worldCurrencyName, code, roundingData) => {
     const unitName = composeUnitPrefix(worldCurrencyName) + ' ' + worldUnit['name'];
     return {
-      [code]: {
+      [(roundingData.shift === 2 ? 'cent' : code)]: {
         code,
         symbol: worldUnit.symbol,
         name: unitName,
