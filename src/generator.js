@@ -8,8 +8,11 @@ const composeUnitPrefix =
 const composeUnit =
   (worldUnit, worldCurrencyName, code, roundingData) => {
     const unitName = composeUnitPrefix(worldCurrencyName) + ' ' + worldUnit['name'];
+    if (roundingData.shift !== 2 && code.match(/^[a-z]+$/i) === null) {
+        throw new Error(`Code should be ansi characters only, got "${code}"`);
+    }
     return {
-      [code]: {
+      [(roundingData.shift === 2 ? 'cent' : code)]: {
         code,
         symbol: worldUnit.symbol,
         name: unitName,
