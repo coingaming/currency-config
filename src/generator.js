@@ -22,8 +22,8 @@ const composeUnit =
 const composeMajorUnit =
   (worldUnit, worldCurrencyName, currencyCode) => {
     const roundingData = {      
-      displayPrecesion: 2,
-      inputPrecession: 4,
+      displayPrecision: 2,
+      inputPrecision: 4,
       shift: 0
     };
     return composeUnit(worldUnit, worldCurrencyName, currencyCode, roundingData);
@@ -32,8 +32,8 @@ const composeMajorUnit =
 const composeMinorUnit =
   (worldUnit, worldCurrencyName) => {
     const roundingData = {
-      displayPrecesion: 0,
-      inputPrecession: 0,
+      displayPrecision: 0,
+      inputPrecision: 0,
       shift: 2
     };
     return composeUnit(worldUnit, worldCurrencyName, worldUnit.name, roundingData);
