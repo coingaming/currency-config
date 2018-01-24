@@ -37,174 +37,6 @@
       }
     }
   },
-  "EUR": {
-    "code": "EUR",
-    "precision": 5,
-    "units": {
-      "EUR": {
-        "code": "EUR",
-        "symbol": "€",
-        "name": "Euro",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "cent",
-        "symbol": "¢",
-        "name": "Euro cent",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "USD": {
-    "code": "USD",
-    "precision": 5,
-    "units": {
-      "USD": {
-        "code": "USD",
-        "symbol": "$",
-        "name": "United States dollar",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "cent",
-        "symbol": "¢",
-        "name": "United States cent",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "GBP": {
-    "code": "GBP",
-    "precision": 5,
-    "units": {
-      "GBP": {
-        "code": "GBP",
-        "symbol": "£",
-        "name": "Pound sterling",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "penny",
-        "symbol": "p",
-        "name": "British penny",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "AUD": {
-    "code": "AUD",
-    "precision": 5,
-    "units": {
-      "AUD": {
-        "code": "AUD",
-        "symbol": "A$",
-        "name": "Australian dollar",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "cent",
-        "symbol": "¢",
-        "name": "Australian cent",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "HKD": {
-    "code": "HKD",
-    "precision": 5,
-    "units": {
-      "HKD": {
-        "code": "HKD",
-        "symbol": "HK$",
-        "name": "Hong Kong dollar",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "cent",
-        "symbol": "¢",
-        "name": "Hong Kong cent",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "JPY": {
-    "code": "JPY",
-    "precision": 5,
-    "units": {
-      "JPY": {
-        "code": "JPY",
-        "symbol": "¤",
-        "name": "Japanese yen",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "SEN",
-        "symbol": "錢",
-        "name": "Japanese sen",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "PHP": {
-    "code": "PHP",
-    "precision": 5,
-    "units": {
-      "PHP": {
-        "code": "PHP",
-        "symbol": "₱",
-        "name": "Philippine peso",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      },
-      "cent": {
-        "code": "cent",
-        "symbol": "¢",
-        "name": "Philippine centavo",
-        "displayPrecision": 0,
-        "inputPrecision": 0,
-        "shift": 2
-      }
-    }
-  },
-  "XXX": {
-    "code": "XXX",
-    "precision": 5,
-    "units": {
-      "XXX": {
-        "code": "XXX",
-        "symbol": "",
-        "name": "Play",
-        "displayPrecision": 2,
-        "inputPrecision": 4,
-        "shift": 0
-      }
-    }
-  },
   "AED": {
     "code": "AED",
     "precision": 5,
@@ -217,7 +49,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fils": {
+      "cent": {
         "code": "fils",
         "symbol": "فلس",
         "name": "Emirati fils",
@@ -239,7 +71,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Pul": {
+      "cent": {
         "code": "Pul",
         "symbol": "",
         "name": "Afghan Pul",
@@ -261,7 +93,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Qindarkë": {
+      "cent": {
         "code": "Qindarkë",
         "symbol": "",
         "name": "Albanian Qindarkë",
@@ -283,7 +115,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "luma": {
+      "cent": {
         "code": "luma",
         "symbol": "",
         "name": "Armenian luma",
@@ -327,7 +159,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "cêntimos": {
+      "cent": {
         "code": "cêntimos",
         "symbol": "",
         "name": "Angolan cêntimos",
@@ -349,10 +181,32 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Argentine centavo",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "AUD": {
+    "code": "AUD",
+    "precision": 5,
+    "units": {
+      "AUD": {
+        "code": "AUD",
+        "symbol": "$",
+        "name": "Australian dollar",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": "Australian cent",
         "shift": 2,
         "displayPrecision": 0,
         "inputPrecision": 0
@@ -393,7 +247,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Qepik": {
+      "cent": {
         "code": "Qepik",
         "symbol": "qr",
         "name": "Azerbaijani Qepik",
@@ -415,7 +269,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fening": {
+      "cent": {
         "code": "fening",
         "symbol": "",
         "name": "Bosnian Convertible fening",
@@ -459,7 +313,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Poisha": {
+      "cent": {
         "code": "Poisha",
         "symbol": "",
         "name": "Bangladeshi Poisha",
@@ -481,7 +335,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "stotinki": {
+      "cent": {
         "code": "stotinki",
         "symbol": "стотинки",
         "name": "Bulgarian stotinki",
@@ -503,7 +357,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fils": {
+      "cent": {
         "code": "fils",
         "symbol": "",
         "name": "Bahraini fils",
@@ -525,7 +379,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "Burundian centime",
@@ -591,7 +445,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Bolivian centavo",
@@ -613,7 +467,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Brazilian centavo",
@@ -657,7 +511,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Chhertum": {
+      "cent": {
         "code": "Chhertum",
         "symbol": "Ch.",
         "name": "Bhutanese Chhertum",
@@ -679,7 +533,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Thebe": {
+      "cent": {
         "code": "Thebe",
         "symbol": "t",
         "name": "Botswana Thebe",
@@ -701,7 +555,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "kapeyka": {
+      "cent": {
         "code": "kapeyka",
         "symbol": "к",
         "name": "Belarusian kapeyka",
@@ -767,7 +621,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "rappen": {
+      "cent": {
         "code": "rappen",
         "symbol": "Rp.",
         "name": "Swiss rappen",
@@ -789,7 +643,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Chilean centavo",
@@ -811,7 +665,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "jiǎo": {
+      "cent": {
         "code": "jiǎo",
         "symbol": "角",
         "name": "Yuan or chinese jiǎo",
@@ -833,7 +687,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Colombian centavo",
@@ -855,7 +709,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "céntimo": {
+      "cent": {
         "code": "céntimo",
         "symbol": "₡",
         "name": "Costa Rican céntimo",
@@ -877,7 +731,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "¢",
         "name": "Cuban convertible centavo",
@@ -899,7 +753,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "¢",
         "name": "Cuban centavo",
@@ -921,7 +775,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Cape Verdean centavo",
@@ -943,7 +797,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "haléř": {
+      "cent": {
         "code": "haléř",
         "symbol": "h",
         "name": "Czech haléř",
@@ -965,7 +819,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "Djiboutian centime",
@@ -987,7 +841,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "kroner": {
+      "cent": {
         "code": "kroner",
         "symbol": "øre",
         "name": "Danish kroner",
@@ -1009,7 +863,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Dominican centavo",
@@ -1031,7 +885,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Santeem": {
+      "cent": {
         "code": "Santeem",
         "symbol": "",
         "name": "Algerian Santeem",
@@ -1053,7 +907,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "piastre": {
+      "cent": {
         "code": "piastre",
         "symbol": "Pt",
         "name": "Egyptian piastre",
@@ -1097,10 +951,32 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "santim": {
+      "cent": {
         "code": "santim",
         "symbol": "",
         "name": "Ethiopian santim",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "EUR": {
+    "code": "EUR",
+    "precision": 5,
+    "units": {
+      "EUR": {
+        "code": "EUR",
+        "symbol": "€",
+        "name": " euro",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "c",
+        "name": " cent",
         "shift": 2,
         "displayPrecision": 0,
         "inputPrecision": 0
@@ -1141,10 +1017,32 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "penny": {
+      "cent": {
         "code": "penny",
         "symbol": "p",
         "name": "Falkland Island penny",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "GBP": {
+    "code": "GBP",
+    "precision": 5,
+    "units": {
+      "GBP": {
+        "code": "GBP",
+        "symbol": "£",
+        "name": "British pound",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "penny",
+        "symbol": "p",
+        "name": "British penny",
         "shift": 2,
         "displayPrecision": 0,
         "inputPrecision": 0
@@ -1163,7 +1061,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "tetri": {
+      "cent": {
         "code": "tetri",
         "symbol": "",
         "name": "Georgian tetri",
@@ -1185,7 +1083,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Pesewa": {
+      "cent": {
         "code": "Pesewa",
         "symbol": "Gp",
         "name": "Ghanaian Pesewa",
@@ -1207,7 +1105,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "penny": {
+      "cent": {
         "code": "penny",
         "symbol": "p",
         "name": "Gibraltar penny",
@@ -1229,7 +1127,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "butut": {
+      "cent": {
         "code": "butut",
         "symbol": "",
         "name": "Gambian butut",
@@ -1251,7 +1149,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "Guinean centime",
@@ -1273,7 +1171,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Guatemalan centavo",
@@ -1305,6 +1203,28 @@
       }
     }
   },
+  "HKD": {
+    "code": "HKD",
+    "precision": 5,
+    "units": {
+      "HKD": {
+        "code": "HKD",
+        "symbol": "HK$",
+        "name": "Hong Kong dollar",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Hong Kong cent",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
   "HNL": {
     "code": "HNL",
     "precision": 5,
@@ -1317,7 +1237,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Honduran centavo",
@@ -1339,7 +1259,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "lipa": {
+      "cent": {
         "code": "lipa",
         "symbol": "lp",
         "name": "Croatian lipa",
@@ -1361,7 +1281,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "Haitian centime",
@@ -1383,7 +1303,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fillér": {
+      "cent": {
         "code": "fillér",
         "symbol": "",
         "name": "Hungarian fillér",
@@ -1405,7 +1325,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Sen": {
+      "cent": {
         "code": "Sen",
         "symbol": "",
         "name": "Indonesian Sen",
@@ -1427,7 +1347,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Agorat": {
+      "cent": {
         "code": "Agorat",
         "symbol": "",
         "name": "Israeli Agorat",
@@ -1449,7 +1369,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "paisa": {
+      "cent": {
         "code": "paisa",
         "symbol": "p",
         "name": "Indian paisa",
@@ -1471,7 +1391,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fils": {
+      "cent": {
         "code": "fils",
         "symbol": "",
         "name": "Iraqi fils",
@@ -1493,7 +1413,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "dinar": {
+      "cent": {
         "code": "dinar",
         "symbol": "",
         "name": "Iranian dinar",
@@ -1515,7 +1435,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "eyrir": {
+      "cent": {
         "code": "eyrir",
         "symbol": "",
         "name": "Icelandic eyrir",
@@ -1559,10 +1479,32 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "qirsh ou piastre": {
+      "cent": {
         "code": "qirsh ou piastre",
         "symbol": "",
         "name": "Jordanian qirsh ou piastre",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "JPY": {
+    "code": "JPY",
+    "precision": 5,
+    "units": {
+      "JPY": {
+        "code": "JPY",
+        "symbol": "¥",
+        "name": "Japanese yen",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "sen",
+        "symbol": "",
+        "name": "Japanese sen",
         "shift": 2,
         "displayPrecision": 0,
         "inputPrecision": 0
@@ -1603,7 +1545,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "tyiyn": {
+      "cent": {
         "code": "tyiyn",
         "symbol": "",
         "name": "Kyrgyzstani tyiyn",
@@ -1625,7 +1567,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "kak": {
+      "cent": {
         "code": "kak",
         "symbol": "",
         "name": "Cambodian kak",
@@ -1647,7 +1589,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "Comoran centime",
@@ -1669,7 +1611,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "chon": {
+      "cent": {
         "code": "chon",
         "symbol": "",
         "name": "North Korean chon",
@@ -1691,7 +1633,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "jeon": {
+      "cent": {
         "code": "jeon",
         "symbol": "",
         "name": "South Korean jeon",
@@ -1713,7 +1655,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fils": {
+      "cent": {
         "code": "fils",
         "symbol": "",
         "name": "Kuwaiti fils",
@@ -1757,7 +1699,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "tïın": {
+      "cent": {
         "code": "tïın",
         "symbol": "",
         "name": "Kazakhstani tïın",
@@ -1779,7 +1721,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Att": {
+      "cent": {
         "code": "Att",
         "symbol": "",
         "name": "Lao or Laotian Att",
@@ -1801,7 +1743,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "piastre": {
+      "cent": {
         "code": "piastre",
         "symbol": "",
         "name": "Lebanese piastre",
@@ -1867,7 +1809,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "sente (lisente)": {
+      "cent": {
         "code": "sente (lisente)",
         "symbol": "",
         "name": "Lesotho sente (lisente)",
@@ -1889,7 +1831,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centas": {
+      "cent": {
         "code": "centas",
         "symbol": "ct",
         "name": "Lithuanian centas",
@@ -1911,7 +1853,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "dirham": {
+      "cent": {
         "code": "dirham",
         "symbol": "",
         "name": "Libyan dirham",
@@ -1933,7 +1875,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "santim": {
+      "cent": {
         "code": "santim",
         "symbol": "santimat",
         "name": "Moroccan santim",
@@ -1955,7 +1897,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Ban": {
+      "cent": {
         "code": "Ban",
         "symbol": "",
         "name": "Moldovan Ban",
@@ -1977,7 +1919,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Iraimbilanja": {
+      "cent": {
         "code": "Iraimbilanja",
         "symbol": "",
         "name": "Malagasy Iraimbilanja",
@@ -1999,7 +1941,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "deni": {
+      "cent": {
         "code": "deni",
         "symbol": "",
         "name": "Macedonian deni",
@@ -2021,7 +1963,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Pya": {
+      "cent": {
         "code": "Pya",
         "symbol": "",
         "name": "Burmese Pya",
@@ -2043,7 +1985,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Möngö": {
+      "cent": {
         "code": "Möngö",
         "symbol": "",
         "name": "Mongolian Möngö",
@@ -2065,7 +2007,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "ho": {
+      "cent": {
         "code": "ho",
         "symbol": "毫",
         "name": "Macau ho",
@@ -2087,7 +2029,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "khoums": {
+      "cent": {
         "code": "khoums",
         "symbol": "",
         "name": "Mauritanian khoums",
@@ -2131,7 +2073,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "laari": {
+      "cent": {
         "code": "laari",
         "symbol": "",
         "name": "Maldivian laari",
@@ -2153,7 +2095,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Tambala": {
+      "cent": {
         "code": "Tambala",
         "symbol": "",
         "name": "Malawian Tambala",
@@ -2175,7 +2117,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "¢",
         "name": "Mexico centavo",
@@ -2197,7 +2139,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Sen": {
+      "cent": {
         "code": "Sen",
         "symbol": "Sen",
         "name": "Malaysian Sen",
@@ -2219,7 +2161,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Mozambican centavo",
@@ -2263,7 +2205,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Kobo": {
+      "cent": {
         "code": "Kobo",
         "symbol": "",
         "name": "Nigerian Kobo",
@@ -2285,7 +2227,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centavo": {
+      "cent": {
         "code": "centavo",
         "symbol": "",
         "name": "Nicaraguan centavo",
@@ -2307,7 +2249,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "øre": {
+      "cent": {
         "code": "øre",
         "symbol": "",
         "name": "Norwegian øre",
@@ -2329,7 +2271,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Paisa": {
+      "cent": {
         "code": "Paisa",
         "symbol": "",
         "name": "Nepalese Paisa",
@@ -2373,7 +2315,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "baisa": {
+      "cent": {
         "code": "baisa",
         "symbol": "bz",
         "name": "Omani baisa",
@@ -2395,7 +2337,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Centésimo": {
+      "cent": {
         "code": "Centésimo",
         "symbol": "",
         "name": "Balboa Centésimo",
@@ -2417,7 +2359,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "céntimo": {
+      "cent": {
         "code": "céntimo",
         "symbol": "",
         "name": "Peruvian nuevo céntimo",
@@ -2439,10 +2381,32 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Toea": {
+      "cent": {
         "code": "Toea",
         "symbol": "",
         "name": "Papua New Guinean Toea",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "PHP": {
+    "code": "PHP",
+    "precision": 5,
+    "units": {
+      "PHP": {
+        "code": "PHP",
+        "symbol": "₱",
+        "name": "Philippine Peso",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "Sentimo",
+        "symbol": "",
+        "name": "Philippine Sentimo",
         "shift": 2,
         "displayPrecision": 0,
         "inputPrecision": 0
@@ -2461,7 +2425,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Paisa": {
+      "cent": {
         "code": "Paisa",
         "symbol": "",
         "name": "Pakistani Paisa",
@@ -2483,7 +2447,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Grosz": {
+      "cent": {
         "code": "Grosz",
         "symbol": "gr",
         "name": "Polish Grosz",
@@ -2505,7 +2469,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "céntimo": {
+      "cent": {
         "code": "céntimo",
         "symbol": "",
         "name": "Paraguayan céntimo",
@@ -2527,7 +2491,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "dirham": {
+      "cent": {
         "code": "dirham",
         "symbol": "",
         "name": "Qatari dirham",
@@ -2549,7 +2513,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "bani": {
+      "cent": {
         "code": "bani",
         "symbol": "",
         "name": "Romanian bani",
@@ -2571,7 +2535,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "para": {
+      "cent": {
         "code": "para",
         "symbol": "",
         "name": "Serbian para",
@@ -2593,7 +2557,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "kopeyka": {
+      "cent": {
         "code": "kopeyka",
         "symbol": "к",
         "name": "Russian kopeyka",
@@ -2615,7 +2579,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "Rwandan centime",
@@ -2637,7 +2601,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Halala": {
+      "cent": {
         "code": "Halala",
         "symbol": "",
         "name": "Saudi Arabian Halala",
@@ -2703,7 +2667,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "piastres": {
+      "cent": {
         "code": "piastres",
         "symbol": ".‏س.ج",
         "name": "Sudanese piastres",
@@ -2725,7 +2689,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "ören": {
+      "cent": {
         "code": "ören",
         "symbol": "",
         "name": "Swedish ören",
@@ -2791,7 +2755,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "senti": {
+      "cent": {
         "code": "senti",
         "symbol": "",
         "name": "Somali senti",
@@ -2835,7 +2799,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "piaster": {
+      "cent": {
         "code": "piaster",
         "symbol": "",
         "name": "South Sudanese piaster",
@@ -2857,7 +2821,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "piastre": {
+      "cent": {
         "code": "piastre",
         "symbol": "",
         "name": "Syrian piastre",
@@ -2901,7 +2865,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "satang": {
+      "cent": {
         "code": "satang",
         "symbol": "",
         "name": "Thai satang",
@@ -2923,7 +2887,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "diram": {
+      "cent": {
         "code": "diram",
         "symbol": "",
         "name": "Tajikistani diram",
@@ -2945,7 +2909,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "tenge": {
+      "cent": {
         "code": "tenge",
         "symbol": "",
         "name": "Turkmenistan tenge",
@@ -2967,7 +2931,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "milim or millime": {
+      "cent": {
         "code": "milim or millime",
         "symbol": "ت.د",
         "name": "Tunisian milim or millime",
@@ -2989,7 +2953,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "seniti": {
+      "cent": {
         "code": "seniti",
         "symbol": "¢",
         "name": "Tongan seniti",
@@ -3011,7 +2975,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "kuruş": {
+      "cent": {
         "code": "kuruş",
         "symbol": "Kr",
         "name": "Turkish kuruş",
@@ -3055,7 +3019,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "jiao": {
+      "cent": {
         "code": "jiao",
         "symbol": "角",
         "name": "Taiwan New jiao",
@@ -3099,7 +3063,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Kopiyka": {
+      "cent": {
         "code": "Kopiyka",
         "symbol": "",
         "name": "Ukrainian Kopiyka",
@@ -3131,6 +3095,28 @@
       }
     }
   },
+  "USD": {
+    "code": "USD",
+    "precision": 5,
+    "units": {
+      "USD": {
+        "code": "USD",
+        "symbol": "$",
+        "name": "US dollar",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "¢",
+        "name": "US cent",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
   "UYU": {
     "code": "UYU",
     "precision": 5,
@@ -3143,7 +3129,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centésimo": {
+      "cent": {
         "code": "centésimo",
         "symbol": "¢",
         "name": "Uruguayan centésimo",
@@ -3165,7 +3151,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Tiyin": {
+      "cent": {
         "code": "Tiyin",
         "symbol": "",
         "name": "Uzbekistani Tiyin",
@@ -3187,7 +3173,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "céntimo": {
+      "cent": {
         "code": "céntimo",
         "symbol": "¢",
         "name": "Venezuelan céntimo",
@@ -3209,7 +3195,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "Hào": {
+      "cent": {
         "code": "Hào",
         "symbol": "",
         "name": "Vietnamese Hào",
@@ -3231,7 +3217,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "": {
+      "cent": {
         "code": "",
         "symbol": "",
         "name": "Ni-Vanuatu ",
@@ -3253,7 +3239,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "sene": {
+      "cent": {
         "code": "sene",
         "symbol": "",
         "name": "Samoan sene",
@@ -3297,7 +3283,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "CFA centime",
@@ -3319,7 +3305,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "centime": {
+      "cent": {
         "code": "centime",
         "symbol": "",
         "name": "CFP centime",
@@ -3341,7 +3327,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "fils": {
+      "cent": {
         "code": "fils",
         "symbol": "",
         "name": "Yemeni fils",
@@ -3385,7 +3371,7 @@
         "displayPrecision": 2,
         "inputPrecision": 4
       },
-      "ngwee": {
+      "cent": {
         "code": "ngwee",
         "symbol": "",
         "name": "Zambian ngwee",
