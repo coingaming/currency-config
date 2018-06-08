@@ -37,6 +37,20 @@
       }
     }
   },
+  "SOC": {
+    "code": "SOC",
+    "precision": 8,
+    "units": {
+      "SOC": {
+        "code": "SOC",
+        "symbol": "SOC",
+        "name": "All Sports",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
