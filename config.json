@@ -37,6 +37,44 @@
       }
     }
   },
+  "ETH": {
+    "code": "ETH",
+    "precision": 8,
+    "units": {
+      "ETH": {
+        "code": "ETH",
+        "symbol": "ETH",
+        "name": "Ether",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      },
+      "mETH": {
+        "code": "mETH",
+        "symbol": "mETH",
+        "name": "Milliether",
+        "displayPrecision": 4,
+        "inputPrecision": 5,
+        "shift": 3
+      },
+      "uETH": {
+        "code": "uETH",
+        "symbol": "μETH",
+        "name": "Microether",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 6
+      },
+      "Gwei": {
+        "code": "Gwei",
+        "symbol": "Gwei",
+        "name": "Gwei",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 8
+      }
+    }
+  },
   "SOC": {
     "code": "SOC",
     "precision": 8,
