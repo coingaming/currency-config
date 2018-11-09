@@ -93,7 +93,7 @@
     "code": "LTC",
     "precision": 8,
     "units": {
-      "BTC": {
+      "LTC": {
         "code": "LTC",
         "symbol": "Ł",
         "name": "Litecoin",
@@ -101,7 +101,7 @@
         "inputPrecision": 8,
         "shift": 0
       },
-      "mBTC": {
+      "mLTC": {
         "code": "mLTC",
         "symbol": "mŁ",
         "name": "milli-Litecoin",
@@ -109,9 +109,9 @@
         "inputPrecision": 5,
         "shift": 3
       },
-      "uBTC": {
-        "code": "uBTC",
-        "symbol": "μ₿",
+      "uLTC": {
+        "code": "uLTC",
+        "symbol": "μŁ",
         "name": "micro-Litecoin",
         "displayPrecision": 2,
         "inputPrecision": 2,
