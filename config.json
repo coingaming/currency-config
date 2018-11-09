@@ -89,6 +89,44 @@
       }
     }
   },
+  "LTC": {
+    "code": "LTC",
+    "precision": 8,
+    "units": {
+      "BTC": {
+        "code": "LTC",
+        "symbol": "Ł",
+        "name": "Litecoin",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      },
+      "mBTC": {
+        "code": "mLTC",
+        "symbol": "mŁ",
+        "name": "milli-Litecoin",
+        "displayPrecision": 4,
+        "inputPrecision": 5,
+        "shift": 3
+      },
+      "uBTC": {
+        "code": "uBTC",
+        "symbol": "μ₿",
+        "name": "micro-Litecoin",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 6
+      },
+      "sat": {
+        "code": "lit",
+        "symbol": "",
+        "name": "Litoshi",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 8
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
