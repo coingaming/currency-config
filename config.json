@@ -117,7 +117,7 @@
         "inputPrecision": 2,
         "shift": 6
       },
-      "sat": {
+      "lit": {
         "code": "lit",
         "symbol": "",
         "name": "Litoshi",
