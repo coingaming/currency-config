@@ -127,6 +127,36 @@
       }
     }
   },
+  "TRX": {
+    "code": "TRX",
+    "precision": 8,
+    "units": {
+      "TRX": {
+        "code": "TRX",
+        "symbol": "TRX",
+        "name": "Tron",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      },
+      "mTRX": {
+        "code": "mTRX",
+        "symbol": "mTRX",
+        "name": "milli-Tron",
+        "displayPrecision": 4,
+        "inputPrecision": 5,
+        "shift": 3
+      },
+      "uTRX": {
+        "code": "uTRX",
+        "symbol": "μTRX",
+        "name": "micro-Tron",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 6
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
