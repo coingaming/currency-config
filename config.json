@@ -3281,14 +3281,14 @@
       }
     }
   },
-  "VEF": {
-    "code": "VEF",
+  "VES": {
+    "code": "VES",
     "precision": 5,
     "units": {
-      "VEF": {
-        "code": "VEF",
+      "VES": {
+        "code": "VES",
         "symbol": "Bs",
-        "name": "Venezuelan bolívares fuertes",
+        "name": "Venezuelan bolívares soberano",
         "shift": 0,
         "displayPrecision": 2,
         "inputPrecision": 4
