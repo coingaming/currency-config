@@ -3544,5 +3544,27 @@
         "inputPrecision": 0
       }
     }
+  },
+  "XPS": {
+    "code": "XPS",
+    "precision": 5,
+    "units": {
+      "XPS": {
+        "code": "XPS",
+        "symbol": "",
+        "name": "Points",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Point cent",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
   }
 }
