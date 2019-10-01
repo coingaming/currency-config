@@ -3545,12 +3545,12 @@
       }
     }
   },
-  "XPS": {
-    "code": "XPS",
+  "X5T": {
+    "code": "X5T",
     "precision": 5,
     "units": {
-      "XPS": {
-        "code": "XPS",
+      "X5T": {
+        "code": "X5T",
         "symbol": "",
         "name": "Points",
         "shift": 0,
