@@ -129,30 +129,38 @@
   },
   "TRX": {
     "code": "TRX",
-    "precision": 8,
+    "precision": 6,
     "units": {
       "TRX": {
         "code": "TRX",
         "symbol": "TRX",
         "name": "Tron",
-        "displayPrecision": 8,
-        "inputPrecision": 8,
+        "displayPrecision": 6,
+        "inputPrecision": 6,
         "shift": 0
       },
       "mTRX": {
         "code": "mTRX",
         "symbol": "mTRX",
         "name": "milli-Tron",
-        "displayPrecision": 4,
-        "inputPrecision": 5,
+        "displayPrecision": 3,
+        "inputPrecision": 3,
         "shift": 3
       },
       "uTRX": {
         "code": "uTRX",
         "symbol": "μTRX",
         "name": "micro-Tron",
-        "displayPrecision": 2,
-        "inputPrecision": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 6
+      },
+      "SUN": {
+        "code": "SUN",
+        "symbol": "sun",
+        "name": "sun",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
         "shift": 6
       }
     }
