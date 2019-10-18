@@ -136,7 +136,7 @@
         "symbol": "TRX",
         "name": "Tron",
         "displayPrecision": 8,
-        "inputPrecision": 8,
+        "inputPrecision": 6,
         "shift": 0
       },
       "mTRX": {
@@ -144,7 +144,7 @@
         "symbol": "mTRX",
         "name": "milli-Tron",
         "displayPrecision": 4,
-        "inputPrecision": 5,
+        "inputPrecision": 3,
         "shift": 3
       },
       "uTRX": {
@@ -152,7 +152,7 @@
         "symbol": "μTRX",
         "name": "micro-Tron",
         "displayPrecision": 2,
-        "inputPrecision": 2,
+        "inputPrecision": 0,
         "shift": 6
       }
     }
