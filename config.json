@@ -157,6 +157,44 @@
       }
     }
   },
+  "XRP": {
+    "code": "XRP",
+    "precision": 6,
+    "units": {
+      "XRP": {
+        "code": "XRP",
+        "symbol": "XRP",
+        "name": "Ripple",
+        "displayPrecision": 6,
+        "inputPrecision": 6,
+        "shift": 0
+      },
+      "mXRP": {
+        "code": "mXRP",
+        "symbol": "mXRP",
+        "name": "milli-Ripple",
+        "displayPrecision": 3,
+        "inputPrecision": 3,
+        "shift": 3
+      },
+      "uXRP": {
+        "code": "uXRP",
+        "symbol": "μXRP",
+        "name": "micro-Ripple",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 6
+      },
+      "drop": {
+        "code": "drop",
+        "symbol": "drop",
+        "name": "drop",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 6
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
