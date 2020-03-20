@@ -3604,5 +3604,27 @@
         "inputPrecision": 0
       }
     }
+  },
+  "USDT": {
+    "code": "USDT",
+    "precision": 5,
+    "units": {
+      "USDT": {
+        "code": "USDT",
+        "symbol": "₮",
+        "name": "Tether",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "Tether cent",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
   }
 }
