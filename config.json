@@ -195,6 +195,44 @@
       }
     }
   },
+  "ADA": {
+    "code": "ADA",
+    "precision": 6,
+    "units": {
+      "ADA": {
+        "code": "ADA",
+        "symbol": "ADA",
+        "name": "Cardano",
+        "displayPrecision": 6,
+        "inputPrecision": 6,
+        "shift": 0
+      },
+      "mADA": {
+        "code": "mADA",
+        "symbol": "mADA",
+        "name": "milli-Cardano",
+        "displayPrecision": 3,
+        "inputPrecision": 3,
+        "shift": 3
+      },
+      "uADA": {
+        "code": "uADA",
+        "symbol": "μADA",
+        "name": "micro-Cardano",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 6
+      },
+      "drop": {
+        "code": "drop",
+        "symbol": "drop",
+        "name": "drop",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 6
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
