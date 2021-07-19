@@ -233,6 +233,36 @@
       }
     }
   },
+  "DOGE": {
+    "code": "DOGE",
+    "precision": 6,
+    "units": {
+      "DOGE": {
+        "code": "DOGE",
+        "symbol": "Ɖ",
+        "name": "Dogecoin",
+        "displayPrecision": 6,
+        "inputPrecision": 6,
+        "shift": 0
+      },
+      "mDOGE": {
+        "code": "mDOGE",
+        "symbol": "mƉ",
+        "name": "milli-Doge",
+        "displayPrecision": 3,
+        "inputPrecision": 3,
+        "shift": 3
+      },
+      "μDOGE ": {
+        "code": "μDOGE ",
+        "symbol": "μƉ",
+        "name": "micro-Doge",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 6
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
