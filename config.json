@@ -263,6 +263,44 @@
       }
     }
   },
+  "BNB": {
+    "code": "BNB",
+    "precision": 8,
+    "units": {
+      "BNB": {
+        "code": "BNB",
+        "symbol": "BNB",
+        "name": "BNB",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      },
+      "mBNB": {
+        "code": "mBNB",
+        "symbol": "mBNB",
+        "name": "Millibnb",
+        "displayPrecision": 4,
+        "inputPrecision": 5,
+        "shift": 3
+      },
+      "uBNB": {
+        "code": "uBNB",
+        "symbol": "μBNB",
+        "name": "Microbnb",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 6
+      },
+      "Gwei": {
+        "code": "Jager",
+        "symbol": "Jager",
+        "name": "Jager",
+        "displayPrecision": 0,
+        "inputPrecision": 0,
+        "shift": 8
+      }
+    }
+  },
   "AED": {
     "code": "AED",
     "precision": 5,
