@@ -3755,6 +3755,34 @@
       }
     }
   },
+  "SOL": {
+    "code": "SOL",
+    "precision": 8,
+    "units": {
+      "SOL": {
+        "code": "SOL",
+        "symbol": "",
+        "name": "SOL",
+        "shift": 0,
+        "displayPrecision": 8,
+        "inputPrecision": 8
+      }
+    }
+  },
+  "USDC": {
+    "code": "USDC",
+    "precision": 5,
+    "units": {
+      "USDC": {
+        "code": "USDC",
+        "symbol": "",
+        "name": "USDC",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      }
+    }
+  },
   "HI": {
     "code": "HI",
     "precision": 5,
