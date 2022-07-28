@@ -197,7 +197,7 @@
   },
   "ADA": {
     "code": "ADA",
-    "precision": 6,
+    "precision": 5,
     "units": {
       "ADA": {
         "code": "ADA",
@@ -3785,7 +3785,7 @@
   },
   "HI": {
     "code": "HI",
-    "precision": 5,
+    "precision": 8,
     "units": {
       "HI": {
         "code": "HI",
