@@ -3785,7 +3785,7 @@
   },
   "HI": {
     "code": "HI",
-    "precision": 5,
+    "precision": 8,
     "units": {
       "HI": {
         "code": "HI",
