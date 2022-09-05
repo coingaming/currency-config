@@ -3626,5 +3626,1271 @@
         "inputPrecision": 0
       }
     }
+  },
+  "BYN": {
+    "code": "BYN",
+    "precision": 5,
+    "units": {
+      "BYN": {
+        "code": "BYN",
+        "symbol": "р",
+        "name": "Belarusian ruble",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "kapeyka",
+        "symbol": "к",
+        "name": "Belarusian kapeyka",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "VEF": {
+    "code": "VEF",
+    "precision": 5,
+    "units": {
+      "VEF": {
+        "code": "VEF",
+        "symbol": "Bs",
+        "name": "Venezuelan bolívares fuertes",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "céntimo",
+        "symbol": "¢",
+        "name": "Venezuelan céntimo",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
+  "USDC": {
+    "code": "USDC",
+    "precision": 5,
+    "units": {
+      "USDC": {
+        "symbol": "",
+        "name": "USD Coin",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "BNB": {
+    "code": "BNB",
+    "precision": 8,
+    "units": {
+      "BNB": {
+        "symbol": "",
+        "name": "BNB",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "BUSD": {
+    "code": "BUSD",
+    "precision": 5,
+    "units": {
+      "BUSD": {
+        "symbol": "",
+        "name": "Binance USD",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "ADA": {
+    "code": "ADA",
+    "precision": 5,
+    "units": {
+      "ADA": {
+        "symbol": "",
+        "name": "Cardano",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "SOL": {
+    "code": "SOL",
+    "precision": 8,
+    "units": {
+      "SOL": {
+        "symbol": "",
+        "name": "Solana",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "DOT": {
+    "code": "DOT",
+    "precision": 8,
+    "units": {
+      "DOT": {
+        "symbol": "",
+        "name": "Polkadot",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "DOGE": {
+    "code": "DOGE",
+    "precision": 3,
+    "units": {
+      "DOGE": {
+        "symbol": "",
+        "name": "Dogecoin",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "MATIC": {
+    "code": "MATIC",
+    "precision": 5,
+    "units": {
+      "MATIC": {
+        "symbol": "",
+        "name": "Polygon",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "DAI": {
+    "code": "DAI",
+    "precision": 5,
+    "units": {
+      "DAI": {
+        "symbol": "",
+        "name": "Dai",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "SHIB": {
+    "code": "SHIB",
+    "precision": 0,
+    "units": {
+      "SHIB": {
+        "symbol": "",
+        "name": "Shiba Inu",
+        "displayPrecision": 2,
+        "inputPrecision": 0,
+        "shift": 0
+      }
+    }
+  },
+  "AVAX": {
+    "code": "AVAX",
+    "precision": 8,
+    "units": {
+      "AVAX": {
+        "symbol": "",
+        "name": "Avalanche",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "LEO": {
+    "code": "LEO",
+    "precision": 8,
+    "units": {
+      "LEO": {
+        "symbol": "",
+        "name": "UNUS SED LEO",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "WBTC": {
+    "code": "WBTC",
+    "precision": 8,
+    "units": {
+      "WBTC": {
+        "symbol": "",
+        "name": "Wrapped Bitcoin",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "UNI": {
+    "code": "UNI",
+    "precision": 8,
+    "units": {
+      "UNI": {
+        "symbol": "",
+        "name": "Uniswap",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "ETC": {
+    "code": "ETC",
+    "precision": 8,
+    "units": {
+      "ETC": {
+        "symbol": "",
+        "name": "Ethereum Classic",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "ATOM": {
+    "code": "ATOM",
+    "precision": 8,
+    "units": {
+      "ATOM": {
+        "symbol": "",
+        "name": "Cosmos",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "LINK": {
+    "code": "LINK",
+    "precision": 8,
+    "units": {
+      "LINK": {
+        "symbol": "",
+        "name": "Chainlink",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "FTT": {
+    "code": "FTT",
+    "precision": 8,
+    "units": {
+      "FTT": {
+        "symbol": "",
+        "name": "FTX Token",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "NEAR": {
+    "code": "NEAR",
+    "precision": 8,
+    "units": {
+      "NEAR": {
+        "symbol": "",
+        "name": "NEAR Protocol",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "CRO": {
+    "code": "CRO",
+    "precision": 5,
+    "units": {
+      "CRO": {
+        "symbol": "",
+        "name": "Cronos",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "XMR": {
+    "code": "XMR",
+    "precision": 8,
+    "units": {
+      "XMR": {
+        "symbol": "",
+        "name": "Monero",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "XLM": {
+    "code": "XLM",
+    "precision": 5,
+    "units": {
+      "XLM": {
+        "symbol": "",
+        "name": "Stellar",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "BCH": {
+    "code": "BCH",
+    "precision": 8,
+    "units": {
+      "BCH": {
+        "symbol": "",
+        "name": "Bitcoin Cash",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "ALGO": {
+    "code": "ALGO",
+    "precision": 5,
+    "units": {
+      "ALGO": {
+        "symbol": "",
+        "name": "Algorand",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "FLOW": {
+    "code": "FLOW",
+    "precision": 8,
+    "units": {
+      "FLOW": {
+        "symbol": "",
+        "name": "Flow",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "VET": {
+    "code": "VET",
+    "precision": 3,
+    "units": {
+      "VET": {
+        "symbol": "",
+        "name": "VeChain",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "ICP": {
+    "code": "ICP",
+    "precision": 8,
+    "units": {
+      "ICP": {
+        "symbol": "",
+        "name": "Internet Computer",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "FIL": {
+    "code": "FIL",
+    "precision": 8,
+    "units": {
+      "FIL": {
+        "symbol": "",
+        "name": "Filecoin",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "MANA": {
+    "code": "MANA",
+    "precision": 5,
+    "units": {
+      "MANA": {
+        "symbol": "",
+        "name": "Decentraland",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "EOS": {
+    "code": "EOS",
+    "precision": 8,
+    "units": {
+      "EOS": {
+        "symbol": "",
+        "name": "EOS",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "APE": {
+    "code": "APE",
+    "precision": 8,
+    "units": {
+      "APE": {
+        "symbol": "",
+        "name": "ApeCoin",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "SAND": {
+    "code": "SAND",
+    "precision": 5,
+    "units": {
+      "SAND": {
+        "symbol": "",
+        "name": "The Sandbox",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "XTZ": {
+    "code": "XTZ",
+    "precision": 8,
+    "units": {
+      "XTZ": {
+        "symbol": "",
+        "name": "Tezos",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "HBAR": {
+    "code": "HBAR",
+    "precision": 3,
+    "units": {
+      "HBAR": {
+        "symbol": "",
+        "name": "Hedera",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "CHZ": {
+    "code": "CHZ",
+    "precision": 5,
+    "units": {
+      "CHZ": {
+        "symbol": "",
+        "name": "Chiliz",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "AAVE": {
+    "code": "AAVE",
+    "precision": 8,
+    "units": {
+      "AAVE": {
+        "symbol": "",
+        "name": "Aave",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "EGLD": {
+    "code": "EGLD",
+    "precision": 8,
+    "units": {
+      "EGLD": {
+        "symbol": "",
+        "name": "Elrond",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "AXS": {
+    "code": "AXS",
+    "precision": 8,
+    "units": {
+      "AXS": {
+        "symbol": "",
+        "name": "Axie Infinity",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "THETA": {
+    "code": "THETA",
+    "precision": 8,
+    "units": {
+      "THETA": {
+        "symbol": "",
+        "name": "Theta Network",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "QNT": {
+    "code": "QNT",
+    "precision": 8,
+    "units": {
+      "QNT": {
+        "symbol": "",
+        "name": "Quant",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "TUSD": {
+    "code": "TUSD",
+    "precision": 5,
+    "units": {
+      "TUSD": {
+        "symbol": "",
+        "name": "TrueUSD",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "BSV": {
+    "code": "BSV",
+    "precision": 8,
+    "units": {
+      "BSV": {
+        "symbol": "",
+        "name": "Bitcoin SV",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "ZEC": {
+    "code": "ZEC",
+    "precision": 8,
+    "units": {
+      "ZEC": {
+        "symbol": "",
+        "name": "Zcash",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "USDP": {
+    "code": "USDP",
+    "precision": 5,
+    "units": {
+      "USDP": {
+        "symbol": "",
+        "name": "Pax Dollar",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "OKB": {
+    "code": "OKB",
+    "precision": 8,
+    "units": {
+      "OKB": {
+        "symbol": "",
+        "name": "OKB",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "KCS": {
+    "code": "KCS",
+    "precision": 8,
+    "units": {
+      "KCS": {
+        "symbol": "",
+        "name": "KuCoin Token",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "BTT": {
+    "code": "BTT",
+    "precision": 0,
+    "units": {
+      "BTT": {
+        "symbol": "",
+        "name": "BitTorrent-New",
+        "displayPrecision": 2,
+        "inputPrecision": 0,
+        "shift": 0
+      }
+    }
+  },
+  "XEC": {
+    "code": "XEC",
+    "precision": 0,
+    "units": {
+      "XEC": {
+        "symbol": "",
+        "name": "eCash",
+        "displayPrecision": 2,
+        "inputPrecision": 0,
+        "shift": 0
+      }
+    }
+  },
+  "MIOTA": {
+    "code": "MIOTA",
+    "precision": 5,
+    "units": {
+      "MIOTA": {
+        "symbol": "",
+        "name": "IOTA",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "MKR": {
+    "code": "MKR",
+    "precision": 8,
+    "units": {
+      "MKR": {
+        "symbol": "",
+        "name": "Maker",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "USDD": {
+    "code": "USDD",
+    "precision": 5,
+    "units": {
+      "USDD": {
+        "symbol": "",
+        "name": "USDD",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "HT": {
+    "code": "HT",
+    "precision": 8,
+    "units": {
+      "HT": {
+        "symbol": "",
+        "name": "Huobi Token",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "GRT": {
+    "code": "GRT",
+    "precision": 5,
+    "units": {
+      "GRT": {
+        "symbol": "",
+        "name": "The Graph",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "SNX": {
+    "code": "SNX",
+    "precision": 8,
+    "units": {
+      "SNX": {
+        "symbol": "",
+        "name": "Synthetix",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "KLAY": {
+    "code": "KLAY",
+    "precision": 5,
+    "units": {
+      "KLAY": {
+        "symbol": "",
+        "name": "Klaytn",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "FTM": {
+    "code": "FTM",
+    "precision": 5,
+    "units": {
+      "FTM": {
+        "symbol": "",
+        "name": "Fantom",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "USDN": {
+    "code": "USDN",
+    "precision": 5,
+    "units": {
+      "USDN": {
+        "symbol": "",
+        "name": "Neutrino USD",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "NEO": {
+    "code": "NEO",
+    "precision": 8,
+    "units": {
+      "NEO": {
+        "symbol": "",
+        "name": "Neo",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "RUNE": {
+    "code": "RUNE",
+    "precision": 8,
+    "units": {
+      "RUNE": {
+        "symbol": "",
+        "name": "THORChain",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "LDO": {
+    "code": "LDO",
+    "precision": 8,
+    "units": {
+      "LDO": {
+        "symbol": "",
+        "name": "Lido DAO",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "NEXO": {
+    "code": "NEXO",
+    "precision": 5,
+    "units": {
+      "NEXO": {
+        "symbol": "",
+        "name": "Nexo",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "CAKE": {
+    "code": "CAKE",
+    "precision": 8,
+    "units": {
+      "CAKE": {
+        "symbol": "",
+        "name": "PancakeSwap",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "CRV": {
+    "code": "CRV",
+    "precision": 5,
+    "units": {
+      "CRV": {
+        "symbol": "",
+        "name": "Curve DAO Token",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "PAXG": {
+    "code": "PAXG",
+    "precision": 8,
+    "units": {
+      "PAXG": {
+        "symbol": "",
+        "name": "PAX Gold",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "ENJ": {
+    "code": "ENJ",
+    "precision": 5,
+    "units": {
+      "ENJ": {
+        "symbol": "",
+        "name": "Enjin Coin",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "DASH": {
+    "code": "DASH",
+    "precision": 8,
+    "units": {
+      "DASH": {
+        "symbol": "",
+        "name": "Dash",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "BAT": {
+    "code": "BAT",
+    "precision": 5,
+    "units": {
+      "BAT": {
+        "symbol": "",
+        "name": "Basic Attention Token",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "HNT": {
+    "code": "HNT",
+    "precision": 8,
+    "units": {
+      "HNT": {
+        "symbol": "",
+        "name": "Helium",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "WAVES": {
+    "code": "WAVES",
+    "precision": 8,
+    "units": {
+      "WAVES": {
+        "symbol": "",
+        "name": "Waves",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "STX": {
+    "code": "STX",
+    "precision": 5,
+    "units": {
+      "STX": {
+        "symbol": "",
+        "name": "Stacks",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "ZIL": {
+    "code": "ZIL",
+    "precision": 3,
+    "units": {
+      "ZIL": {
+        "symbol": "",
+        "name": "Zilliqa",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "LRC": {
+    "code": "LRC",
+    "precision": 5,
+    "units": {
+      "LRC": {
+        "symbol": "",
+        "name": "Loopring",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "MINA": {
+    "code": "MINA",
+    "precision": 5,
+    "units": {
+      "MINA": {
+        "symbol": "",
+        "name": "Mina",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "FEI": {
+    "code": "FEI",
+    "precision": 5,
+    "units": {
+      "FEI": {
+        "symbol": "",
+        "name": "Fei USD",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "DCR": {
+    "code": "DCR",
+    "precision": 8,
+    "units": {
+      "DCR": {
+        "symbol": "",
+        "name": "Decred",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "KAVA": {
+    "code": "KAVA",
+    "precision": 8,
+    "units": {
+      "KAVA": {
+        "symbol": "",
+        "name": "Kava",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "KSM": {
+    "code": "KSM",
+    "precision": 8,
+    "units": {
+      "KSM": {
+        "symbol": "",
+        "name": "Kusama",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "GMT": {
+    "code": "GMT",
+    "precision": 5,
+    "units": {
+      "GMT": {
+        "symbol": "",
+        "name": "STEPN",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "TWT": {
+    "code": "TWT",
+    "precision": 5,
+    "units": {
+      "TWT": {
+        "symbol": "",
+        "name": "Trust Wallet Token",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "GNO": {
+    "code": "GNO",
+    "precision": 8,
+    "units": {
+      "GNO": {
+        "symbol": "",
+        "name": "Gnosis",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "XEM": {
+    "code": "XEM",
+    "precision": 3,
+    "units": {
+      "XEM": {
+        "symbol": "",
+        "name": "NEM",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "BTG": {
+    "code": "BTG",
+    "precision": 8,
+    "units": {
+      "BTG": {
+        "symbol": "",
+        "name": "Bitcoin Gold",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "1INCH": {
+    "code": "1INCH",
+    "precision": 5,
+    "units": {
+      "1INCH": {
+        "symbol": "",
+        "name": "1inch Network",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "CELO": {
+    "code": "CELO",
+    "precision": 5,
+    "units": {
+      "CELO": {
+        "symbol": "",
+        "name": "Celo",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "HOT": {
+    "code": "HOT",
+    "precision": 3,
+    "units": {
+      "HOT": {
+        "symbol": "",
+        "name": "Holo",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "GALA": {
+    "code": "GALA",
+    "precision": 3,
+    "units": {
+      "GALA": {
+        "symbol": "",
+        "name": "Gala",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "CVX": {
+    "code": "CVX",
+    "precision": 8,
+    "units": {
+      "CVX": {
+        "symbol": "",
+        "name": "Convex Finance",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "GUSD": {
+    "code": "GUSD",
+    "precision": 5,
+    "units": {
+      "GUSD": {
+        "symbol": "",
+        "name": "Gemini Dollar",
+        "displayPrecision": 2,
+        "inputPrecision": 4,
+        "shift": 0
+      }
+    }
+  },
+  "YFI": {
+    "code": "YFI",
+    "precision": 8,
+    "units": {
+      "YFI": {
+        "symbol": "",
+        "name": "yearn.finance",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "CEL": {
+    "code": "CEL",
+    "precision": 8,
+    "units": {
+      "CEL": {
+        "symbol": "",
+        "name": "Celsius",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "COMP": {
+    "code": "COMP",
+    "precision": 8,
+    "units": {
+      "COMP": {
+        "symbol": "",
+        "name": "Compound",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "RVN": {
+    "code": "RVN",
+    "precision": 3,
+    "units": {
+      "RVN": {
+        "symbol": "",
+        "name": "Ravencoin",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
+  },
+  "AR": {
+    "code": "AR",
+    "precision": 8,
+    "units": {
+      "AR": {
+        "symbol": "",
+        "name": "Arweave",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
+  "ANKR": {
+    "code": "ANKR",
+    "precision": 3,
+    "units": {
+      "ANKR": {
+        "symbol": "",
+        "name": "Ankr",
+        "displayPrecision": 2,
+        "inputPrecision": 2,
+        "shift": 0
+      }
+    }
   }
 }

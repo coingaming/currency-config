@@ -2,6 +2,6 @@
 	"name": "@heathmont/money-config",
 	"version": "2.3.9",
 	"devDependencies": {
-		"world-currencies": "0.0.6"
+		"world-currencies": "0.0.11"
 	}
 }
