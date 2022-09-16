@@ -3783,6 +3783,20 @@
       }
     }
   },
+  "DAI": {
+    "code": "DAI",
+    "precision": 5,
+    "units": {
+      "DAI": {
+        "code": "DAI",
+        "symbol": "",
+        "name": "DAI",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      }
+    }
+  },
   "HI": {
     "code": "HI",
     "precision": 8,
