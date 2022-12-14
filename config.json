@@ -263,6 +263,20 @@
       }
     }
   },
+  "MATIC": {
+    "code": "MATIC",
+    "precision": 8,
+    "units": {
+      "MATIC": {
+        "code": "MATIC",
+        "symbol": "MATIC",
+        "name": "MATIC",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
   "BNB": {
     "code": "BNB",
     "precision": 8,
