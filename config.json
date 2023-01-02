@@ -277,6 +277,20 @@
       }
     }
   },
+  "TON": {
+    "code": "TON",
+    "precision": 8,
+    "units": {
+      "TON": {
+        "code": "TON",
+        "symbol": "TON",
+        "name": "TON",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
   "BNB": {
     "code": "BNB",
     "precision": 8,
