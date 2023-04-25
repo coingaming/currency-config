@@ -1260,7 +1260,7 @@
       "EUR": {
         "code": "EUR",
         "symbol": "€",
-        "name": " euro",
+        "name": "Euro",
         "shift": 0,
         "displayPrecision": 2,
         "inputPrecision": 4
