@@ -9,7 +9,7 @@ const composeUnit =
   (worldUnit, worldCurrencyName, code, roundingData) => {
     const unitName = composeUnitPrefix(worldCurrencyName) + ' ' + worldUnit['name'];
     if (roundingData.shift !== 2 && code.match(/^[a-z]+$/i) === null) {
-        throw new Error(`Code should be ansi characters only, got "${code}"`);
+      throw new Error(`Code should be ansi characters only, got "${code}"`);
     }
     return {
       [(roundingData.shift === 2 ? 'cent' : code)]: {
@@ -24,7 +24,7 @@ const composeUnit =
 
 const composeMajorUnit =
   (worldUnit, worldCurrencyName, currencyCode) => {
-    const roundingData = {      
+    const roundingData = {
       displayPrecision: 2,
       inputPrecision: 4,
       shift: 0
@@ -42,29 +42,41 @@ const composeMinorUnit =
     return composeUnit(worldUnit, worldCurrencyName, worldUnit.name, roundingData);
   };
 
-const loadCurrency =
+const loadWorldCurrency =
   (worldCurrency, currencyList) => {
     const majorUnit = composeMajorUnit(worldCurrency.units.major, worldCurrency.name, worldCurrency.iso.code);
     const minorUnit = composeMinorUnit(worldCurrency.units.minor, worldCurrency.name);
     const currency = {
       code: worldCurrency.iso.code,
       precision: 5,
-      units: { ...majorUnit, ...minorUnit },
+      units: {...majorUnit, ...minorUnit},
     };
     currencyList[worldCurrency.iso.code] = currency;
   };
 
-const loadAllWorldCurrencies = 
-  (currencies, worldCurrencies) => {
+const loadAllWorldCurrencies =
+  (currencies, worldCurrencies, coinmarketcapCurrencies) => {
     for (currencyCode in worldCurrencies) {
       const notLoaded = !currencies[currencyCode];
       if (notLoaded) {
-        const data = loadCurrency(worldCurrencies[currencyCode], currencies);
+        loadWorldCurrency(worldCurrencies[currencyCode], currencies);
       }
     }
   };
 
+const loadAllCoinmarketcapCurrencies = (currencies, coinmarketcapCurrencies) => {
+  for (currencyCode in coinmarketcapCurrencies) {
+    const notLoaded = !currencies[currencyCode];
+    if (notLoaded) {
+      currencies[currencyCode] = coinmarketcapCurrencies[currencyCode];
+    }
+  }
+};
+
+
 const worldCurrencies = require('world-currencies');
+const coinmarketcapCurrencies = require('../top100coinmarketcap.json');
 const currencies = require('../config.json');
 loadAllWorldCurrencies(currencies, worldCurrencies);
-console.log(JSON.stringify(currencies));
+loadAllCoinmarketcapCurrencies(currencies, coinmarketcapCurrencies);
+console.log(JSON.stringify(currencies, null, 2));
