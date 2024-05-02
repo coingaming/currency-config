@@ -3846,5 +3846,19 @@
         "inputPrecision": 0
       }
     }
+  },
+  "SHIB": {
+    "code": "SHIB",
+    "precision": 8,
+    "units": {
+      "SHIB": {
+        "code": "SHIB",
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
   }
 }
