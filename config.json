@@ -3860,5 +3860,19 @@
         "shift": 0
       }
     }
+  },
+  "BCT": {
+    "code": "BCT",
+    "precision": 18,
+    "units": {
+      "BCT": {
+        "code": "BCT",
+        "symbol": "BCT",
+        "name": "Bitcasino Token",
+        "displayPrecision": 18,
+        "inputPrecision": 18,
+        "shift": 0
+      }
+    }
   }
 }
