@@ -3874,5 +3874,19 @@
         "shift": 0
       }
     }
+  },
+  "BGC": {
+    "code": "BGC",
+    "precision": 5,
+    "units": {
+      "BGC": {
+        "code": "BGC",
+        "symbol": "",
+        "name": "Bahrain Gold Coin",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      }
+    }
   }
 }
