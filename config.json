@@ -3811,6 +3811,20 @@
       }
     }
   },
+  "BAMBOO": {
+    "code": "BAMBOO",
+    "precision": 5,
+    "units": {
+      "USDC": {
+        "code": "BAMBOO",
+        "symbol": "",
+        "name": "BAMBOO",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      }
+    }
+  },
   "DAI": {
     "code": "DAI",
     "precision": 5,
