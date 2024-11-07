@@ -1275,6 +1275,28 @@
       }
     }
   },
+  "EURC": {
+    "code": "EURC",
+    "precision": 5,
+    "units": {
+      "EURC": {
+        "code": "EURC",
+        "symbol": "EURC",
+        "name": "EURC",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "EURC cent",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
   "FJD": {
     "code": "FJD",
     "precision": 5,
@@ -3805,6 +3827,20 @@
         "code": "USDC",
         "symbol": "",
         "name": "USDC",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      }
+    }
+  },
+  "BAMBOO": {
+    "code": "BAMBOO",
+    "precision": 5,
+    "units": {
+      "USDC": {
+        "code": "BAMBOO",
+        "symbol": "",
+        "name": "BAMBOO",
         "shift": 0,
         "displayPrecision": 2,
         "inputPrecision": 4
