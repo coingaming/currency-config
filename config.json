@@ -1289,7 +1289,7 @@
       },
       "cent": {
         "code": "cent",
-        "symbol": "c",
+        "symbol": "",
         "name": "EURC cent",
         "shift": 2,
         "displayPrecision": 0,
