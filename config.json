@@ -1297,6 +1297,28 @@
       }
     }
   },
+  "BBB": {
+    "code": "BBB",
+    "precision": 5,
+    "units": {
+      "BBB": {
+        "code": "BBB",
+        "symbol": "BBB",
+        "name": "BBB",
+        "shift": 0,
+        "displayPrecision": 2,
+        "inputPrecision": 4
+      },
+      "cent": {
+        "code": "cent",
+        "symbol": "",
+        "name": "BBB cent",
+        "shift": 2,
+        "displayPrecision": 0,
+        "inputPrecision": 0
+      }
+    }
+  },
   "FJD": {
     "code": "FJD",
     "precision": 5,
