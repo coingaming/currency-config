@@ -75,18 +75,33 @@ Notes on each step:
 
 ### Always tag the release
 
-Every release gets a `vX.Y.Z` tag matching the published npm version — tags exist for `v2.2.0`
-through `v2.3.25`. They're the only way to see which commit produced a given published version,
-since nothing else records it.
+Every release gets an annotated `vX.Y.Z` tag matching the published npm version — tags exist for
+`v2.2.0` through `v2.3.26`. They're the only way to see which commit produced a given published
+version, since nothing else records it.
 
 `npm version` creates the tag for you. **If you bump the version by editing `package.json` by hand,
-no tag is created and it's easy to miss.** That's how `2.3.26` shipped untagged. To fix a release
-after the fact:
+no tag is created and it's easy to miss.** That's how `2.3.26` initially shipped untagged.
+
+To tag a release after the fact, tag **the commit on `master` whose tree was published** — not the
+commit that first touched the version string. Those differ when the bump is hand-made: `2cf7ca5`
+set `package.json` to 2.3.26 but left `package-lock.json` at 2.3.25, so it was never a publishable
+tree. `v2.3.26` correctly points at `adf5d49`, the merge commit where both files agreed and which
+was `master`'s tip at publish time.
 
 ```bash
-git tag -a v2.3.26 <commit-that-bumped-the-version> -m "v2.3.26"
+git tag -a v2.3.26 adf5d49 -m "v2.3.26"
 git push origin v2.3.26
 ```
+
+Verify the candidate before pushing — both files must show the released version:
+
+```bash
+git show <commit>:package.json      | grep version
+git show <commit>:package-lock.json | grep version | head -1
+```
+
+To be certain a commit is the published one, `npm publish --dry-run` at that checkout prints a
+shasum; compare it to `npm view @heathmont/money-config@X.Y.Z dist.shasum`.
 
 Check for gaps with `git tag | sort -V | tail` against `npm view @heathmont/money-config versions`.
 
