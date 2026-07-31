@@ -53,11 +53,42 @@ it. Add the new one alongside.
 
 There is no CI. Publishing is manual, from a maintainer's machine.
 
-1. Edit `config.json`.
-2. `npm version patch` — bumps `package.json` **and** `package-lock.json`. History is all patch
-   bumps (`2.3.24` → `2.3.25` → `2.3.26`).
-3. Open a PR to `master` and merge. Currency change + version bump belong in the same PR.
-4. `npm publish`
+```bash
+git checkout -b <your-branch>        # never release from master directly
+# edit config.json
+npm version patch                    # bumps both json files, commits, and tags vX.Y.Z
+git push --follow-tags -u origin <your-branch>
+# open PR to master, get it merged
+git checkout master && git pull
+npm publish
+```
+
+Notes on each step:
+
+- **`npm version patch`** does three things: bumps `package.json` **and** `package-lock.json`,
+  creates a commit, and creates an annotated git tag `vX.Y.Z`. History is all patch bumps
+  (`2.3.24` → `2.3.25` → `2.3.26`).
+- **`--follow-tags` is required.** A plain `git push` sends the commit but leaves the tag local, so
+  the release ends up untagged on GitHub.
+- **Publish from `master` after the merge**, so what's on npm matches what's on `master`.
+- Currency change and version bump belong in the same PR.
+
+### Always tag the release
+
+Every release gets a `vX.Y.Z` tag matching the published npm version — tags exist for `v2.2.0`
+through `v2.3.25`. They're the only way to see which commit produced a given published version,
+since nothing else records it.
+
+`npm version` creates the tag for you. **If you bump the version by editing `package.json` by hand,
+no tag is created and it's easy to miss.** That's how `2.3.26` shipped untagged. To fix a release
+after the fact:
+
+```bash
+git tag -a v2.3.26 <commit-that-bumped-the-version> -m "v2.3.26"
+git push origin v2.3.26
+```
+
+Check for gaps with `git tag | sort -V | tail` against `npm view @heathmont/money-config versions`.
 
 ### `npm publish` fails with 403 — read this first
 
