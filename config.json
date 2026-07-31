@@ -291,6 +291,20 @@
       }
     }
   },
+  "GRAM": {
+    "code": "GRAM",
+    "precision": 8,
+    "units": {
+      "GRAM": {
+        "code": "GRAM",
+        "symbol": "GRAM",
+        "name": "GRAM",
+        "displayPrecision": 8,
+        "inputPrecision": 8,
+        "shift": 0
+      }
+    }
+  },
   "BNB": {
     "code": "BNB",
     "precision": 8,
